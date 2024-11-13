@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 public class AmazonSearch {
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver", "c:\\webdriver\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "c:\\webdriver\\chromedriver.exe");
         //define chrome driver object instance
         WebDriver driver = new ChromeDriver();
         //maximize the browser

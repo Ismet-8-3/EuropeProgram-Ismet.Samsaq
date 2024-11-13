@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="File">
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="TestNG Annotation and attributes.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/AddCustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumJavaTests.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/streamapi/FilterDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/streamapi/FilterDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/uiautomation/AmazonSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/uiautomation/AmazonSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/FunctionsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/FunctionsLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/LoginPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,15 +33,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Junit-Testing-Framework-Design" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1i3LA3B5UNw0UVyxQuNnmAazHDW" />
   <component name="ProjectLevelVcsManager">
@@ -35,43 +50,43 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testdata" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\test-Result" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.unitedcoder.json" />
-      <recent name="com.unitedcoder.excel" />
-      <recent name="com.unitedcoder.csv" />
-      <recent name="com.unitedcoder.configutility" />
-      <recent name="com.seleniummaster.conditions" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\testdata" />
       <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests" />
       <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\test-Result" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\test-Result" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testngframework" />
+      <recent name="junittestingframework" />
+      <recent name="com.unitedcoder.json" />
+      <recent name="com.unitedcoder.excel" />
+      <recent name="com.unitedcoder.csv" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.StreamApiFunctions">
-    <configuration name="CommonFunctionInStreamApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.streamapi.CommonFunctionInStreamApi" />
+  <component name="RunManager" selected="JUnit.AddCustomerTest">
+    <configuration name="AmazonSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.uiautomation.AmazonSearch" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.streamapi.*" />
+          <option name="PATTERN" value="com.unitedcoder.uiautomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerAndSupplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.lambdaexpression.ConsumerAndSupplier" />
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.cubecartautomation.TestRunner" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.lambdaexpression.*" />
+          <option name="PATTERN" value="com.unitedcoder.cubecartautomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,62 +107,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.streamapi.FilterDemo1" />
+    <configuration name="AddCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.streamapi.*" />
+          <option name="PATTERN" value="pageobjectdesignpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
+      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.AddCustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.streamapi.MapDemo" />
+    <configuration name="AddCustomerTest.addCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.streamapi.*" />
+          <option name="PATTERN" value="pageobjectdesignpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
+      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.AddCustomerTest" />
+      <option name="METHOD_NAME" value="addCustomerTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamApiFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.streamapi.StreamApiFunctions" />
+    <configuration name="JunitTestDemo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.streamapi.*" />
+          <option name="PATTERN" value="junittestingframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="junittestingframework" />
+      <option name="MAIN_CLASS_NAME" value="junittestingframework.JunitTestDemo1" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConsumerAndSupplier" />
-      <item itemvalue="Application.FilterDemo1" />
-      <item itemvalue="Application.MapDemo" />
-      <item itemvalue="Application.CommonFunctionInStreamApi" />
-      <item itemvalue="Application.StreamApiFunctions" />
+      <item itemvalue="Application.AmazonSearch" />
+      <item itemvalue="Application.TestRunner" />
+      <item itemvalue="JUnit.AddCustomerTest" />
+      <item itemvalue="JUnit.AddCustomerTest.addCustomerTest" />
+      <item itemvalue="JUnit.JunitTestDemo1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamApiFunctions" />
-        <item itemvalue="Application.CommonFunctionInStreamApi" />
-        <item itemvalue="Application.MapDemo" />
-        <item itemvalue="Application.FilterDemo1" />
-        <item itemvalue="Application.ConsumerAndSupplier" />
+        <item itemvalue="JUnit.AddCustomerTest" />
+        <item itemvalue="JUnit.AddCustomerTest.addCustomerTest" />
+        <item itemvalue="JUnit.JunitTestDemo1" />
+        <item itemvalue="Application.AmazonSearch" />
+        <item itemvalue="Application.TestRunner" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -158,27 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601131181857</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Tax">
-      <created>1602929760830</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1602929760830</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Tax">
-      <created>1602929962629</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1602929962629</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Tax">
-      <created>1602930160018</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1602930160018</updated>
     </task>
     <task id="LOCAL-00010" summary="Tax">
       <created>1602930228448</created>
@@ -502,8 +504,40 @@
       <option name="project" value="LOCAL" />
       <updated>1609001768927</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="JUnit Test Framework Design">
+      <created>1731101047104</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1731101047105</updated>
+    </task>
+    <task id="LOCAL-00057" summary="JUnit Test Framework Design">
+      <created>1731250825089</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1731250825090</updated>
+    </task>
+    <task id="LOCAL-00058" summary="TestNG Annotation and attributes.">
+      <created>1731272384025</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1731272384025</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
@@ -517,85 +551,9 @@
     <MESSAGE value="dropDown" />
     <MESSAGE value="Automation design" />
     <MESSAGE value="File" />
-    <option name="LAST_COMMIT_MESSAGE" value="File" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="36" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605811547921">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="36" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1605811547921" />
-    <state x="385" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607162895966">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="385" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1607162895966" />
-    <state x="445" y="33" key="#com.intellij.ide.util.MemberChooser" timestamp="1608372795036">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="445" y="33" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1608372795036" />
-    <state x="311" y="128" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602178113929">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="311" y="128" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1602178113929" />
-    <state x="441" y="209" width="405" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605037407782">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="441" y="209" width="405" height="266" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605037407782" />
-    <state x="238" y="0" key="CommitChangelistDialog2" timestamp="1609436469229">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="238" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1609436469229" />
-    <state width="1237" height="218" key="GridCell.Tab.0.bottom" timestamp="1608398048712">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="218" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608398048712" />
-    <state width="1237" height="218" key="GridCell.Tab.0.center" timestamp="1608398048712">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="218" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608398048712" />
-    <state width="1237" height="218" key="GridCell.Tab.0.left" timestamp="1608398048712">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="218" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608398048712" />
-    <state width="1237" height="218" key="GridCell.Tab.0.right" timestamp="1608398048712">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="218" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608398048712" />
-    <state width="1237" height="193" key="GridCell.Tab.1.bottom" timestamp="1608063988815">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="193" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608063988815" />
-    <state width="1237" height="193" key="GridCell.Tab.1.center" timestamp="1608063988814">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="193" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1608063988814" />
-    <state width="1237" height="193" key="GridCell.Tab.1.left" timestamp="1608063988814">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="193" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1608063988814" />
-    <state width="1237" height="193" key="GridCell.Tab.1.right" timestamp="1608063988814">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="193" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1608063988814" />
-    <state x="175" y="0" key="Maven.ArtifactSearchDialog" timestamp="1607778020858">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="175" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1607778020858" />
-    <state x="94" y="0" key="SettingsEditor" timestamp="1607777010828">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="94" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1607777010828" />
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2" timestamp="1609001773700">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="232" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609001773700" />
-    <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603555427584">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="164" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1603555427584" />
-    <state x="362" y="258" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1606840083809">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="362" y="258" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1280.680@0.0.1280.680" timestamp="1606840083809" />
+    <MESSAGE value="JUnit Test Framework Design" />
+    <MESSAGE value="TestNG Annotation and attributes." />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG Annotation and attributes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -605,6 +563,15 @@
           <line>14</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/unitedcoder/loops/ForLoop1.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

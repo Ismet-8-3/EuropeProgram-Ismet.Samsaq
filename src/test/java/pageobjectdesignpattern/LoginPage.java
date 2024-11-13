@@ -11,31 +11,28 @@ import org.openqa.selenium.support.PageFactory;
  * @created : 09/11/2024,22:12
  * @Email : noah.yisimaiti@Gmail.com
  **/
-public class LoginPage {
+public class LoginPage{
     ChromeDriver driver;
     FunctionsLibrary functionsLibrary;
-    @FindBy(id ="username")
+    @FindBy(id = "username")
     WebElement userNameField;
-    @FindBy(id ="password")
+    @FindBy(id = "password")
     WebElement passwordField;
-    @FindBy(id ="login")
+    @FindBy(id = "login")
     WebElement loginButton;
-
 
     public LoginPage(ChromeDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver,this);
-        functionsLibrary=new FunctionsLibrary();
-
+        functionsLibrary=new FunctionsLibrary(driver);
     }
-
-public void login(String userName,String password){
+    public void login(String userName,String password){
         functionsLibrary.waitForElementPresent(userNameField);
         userNameField.sendKeys(userName);
         functionsLibrary.waitForElementPresent(passwordField);
         passwordField.sendKeys(password);
         functionsLibrary.waitForElementPresent(loginButton);
         loginButton.click();
-     }
+    }
 
 }

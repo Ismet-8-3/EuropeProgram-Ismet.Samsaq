@@ -13,22 +13,21 @@ import org.openqa.selenium.support.PageFactory;
 public class DashboardPage {
     ChromeDriver driver;
     FunctionsLibrary functionsLibrary;
-    @FindBy(linkText = "Customer List")
-    WebElement customerListLink;
-    @FindBy(css = "i.fa.fa-sign-out")
-    WebElement loginLink;
-    public DashboardPage(ChromeDriver driver){
-        this.driver=driver;
+@FindBy(linkText = "Customer List")
+WebElement customerListLink;
+@FindBy(css="i.fa-sign-out")
+WebElement logOutLink;
+    public DashboardPage(ChromeDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(driver,this);
-        functionsLibrary=new FunctionsLibrary();
+        functionsLibrary=new FunctionsLibrary(driver);
     }
     public void clickCustomerListLink(){
         functionsLibrary.waitForElementPresent(customerListLink);
         customerListLink.click();
 
     }
-    public void logout(){
-        functionsLibrary.waitForElementPresent(loginLink);
-        loginLink.click();
+    public void logOut(){
+        functionsLibrary.waitForElementPresent(logOutLink);logOutLink.click();
     }
 }

@@ -14,7 +14,12 @@ import java.time.Duration;
  * @Email : noah.yisimaiti@Gmail.com
  **/
 public class FunctionsLibrary {
-    ChromeDriver driver;
+  ChromeDriver driver;
+
+    public FunctionsLibrary(ChromeDriver driver) {
+        this.driver = driver;
+    }
+
     public void sleep(int seconds){
         try {
             Thread.sleep(seconds*1000);

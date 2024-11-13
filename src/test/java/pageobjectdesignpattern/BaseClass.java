@@ -7,7 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
  * @created : 10/11/2024,11:09
  * @Email : noah.yisimaiti@Gmail.com
  **/
-public class BaseClass {
+public  class BaseClass {
+
     ChromeDriver driver;
     public void openBrowser(){
         driver =new ChromeDriver();

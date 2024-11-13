@@ -13,29 +13,28 @@ import org.openqa.selenium.support.PageFactory;
 public class CustomerListPage {
     ChromeDriver driver;
     FunctionsLibrary functionsLibrary;
-    @FindBy(linkText ="Add Customer")
+    @FindBy(linkText = "Add Customer")
     WebElement addCustomerLink;
     @FindBy(id = "cust-title")
     WebElement titleField;
-    @FindBy(id = "cust-firstname")
+    @FindBy(id = "name")
     WebElement firstNameField;
-    @FindBy(id = "cust-lastname")
+    @FindBy(id = "name")
     WebElement lastNameField;
-    @FindBy(id = "cust-email")
+    @FindBy(id = "name")
     WebElement emailField;
     @FindBy(name = "save")
     WebElement saveButton;
-    @FindBy(id = "ddd")
-    WebElement customerAddEddSuccessMessage;
+    @FindBy(id = "customer successfully added")
+    WebElement customerAddedSuccessMessage;
 
 
-    public CustomerListPage(ChromeDriver driver){
-        this.driver=driver;
+    public CustomerListPage(ChromeDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(driver,this);
-        functionsLibrary=new FunctionsLibrary();
-
+        functionsLibrary=new FunctionsLibrary(driver);
     }
-    public void addCustomer(String title, String firstName,String lastName,String email){
+    public void addCustomer(String title,String firstName,String lastName,String email){
         functionsLibrary.waitForElementPresent(addCustomerLink);
         addCustomerLink.click();
         functionsLibrary.waitForElementPresent(titleField);
@@ -49,6 +48,11 @@ public class CustomerListPage {
         functionsLibrary.waitForElementPresent(saveButton);
         saveButton.click();
     }
-
-
+    public boolean verifyCustomerAdded(){
+        functionsLibrary.waitForElementPresent(customerAddedSuccessMessage);
+        if (customerAddedSuccessMessage.isDisplayed())
+            return true;
+        else
+            return false;
+    }
 }
