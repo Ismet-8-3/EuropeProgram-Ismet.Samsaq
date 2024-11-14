@@ -14,11 +14,11 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage{
     ChromeDriver driver;
     FunctionsLibrary functionsLibrary;
-    @FindBy(id = "username")
+    @FindBy(id = "login_login_username")
     WebElement userNameField;
-    @FindBy(id = "password")
+    @FindBy(id = "login_login_password")
     WebElement passwordField;
-    @FindBy(id = "login")
+    @FindBy(id = "login_submit")
     WebElement loginButton;
 
     public LoginPage(ChromeDriver driver) {

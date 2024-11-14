@@ -23,7 +23,7 @@ public class AddCustomerTest extends BaseClass{
     }
     @Test
     public void addCustomerTest(){
-        loginPage.login("admin","maharademo");
+        loginPage.login("admin","MaharaDemo");
         dashboardPage.clickCustomerListLink();
         customerListPage.addCustomer("mr","ali","alim","asd@email.com");
         Assertions.assertTrue(customerListPage.verifyCustomerAdded());
