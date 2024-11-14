@@ -16,6 +16,7 @@ public class LoginPage{
     FunctionsLibrary functionsLibrary;
     @FindBy(id = "login_login_username")
     WebElement userNameField;
+
     @FindBy(id = "login_login_password")
     WebElement passwordField;
     @FindBy(id = "login_submit")
