@@ -41,9 +41,10 @@ public class AddCustomerTest extends BaseClass{
         dashboardPage.logOut();
          }
 
- // @AfterEach
-  //public void tearDown(){
-      //closeBrowser();
-   // }
+  @AfterEach
+  public void tearDown()
+  {
+      closeBrowser();
+    }
 
 }
