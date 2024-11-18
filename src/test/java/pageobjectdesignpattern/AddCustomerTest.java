@@ -23,13 +23,27 @@ public class AddCustomerTest extends BaseClass{
     }
     @Test
     public void addCustomerTest(){
-        loginPage.login("admin","MaharaDemo");
-        dashboardPage.clickCustomerListLink();
-        customerListPage.addCustomer("mr","ali","alim","asd@email.com");
-        Assertions.assertTrue(customerListPage.verifyCustomerAdded());
-    }
-    @AfterEach
-    public void tearDown(){
-        closeBrowser();
-    }
+        loginPage.login("standard_user","secret_sauce");
+
+         customerListPage.addToCart.click();
+         customerListPage.addToCart1.click();
+         customerListPage.shopingCar.click();
+         customerListPage.checkOut.click();
+         customerListPage.firstNameField.sendKeys("Ismet");
+        customerListPage.lastNameField.sendKeys("Samsaq");
+         customerListPage.zipCodeField.sendKeys("2840");
+         customerListPage.Continue.click();
+         customerListPage.Finish.click();
+         customerListPage.verifyCustomerAdded();
+      // customerListPage.addCustomer("mr","ali","alim","asd@email.com");
+     Assertions.assertTrue(customerListPage.verifyCustomerAdded());
+       dashboardPage.dropLink();
+        dashboardPage.logOut();
+         }
+
+ // @AfterEach
+  //public void tearDown(){
+      //closeBrowser();
+   // }
+
 }

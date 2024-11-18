@@ -9,11 +9,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
  **/
 public  class BaseClass {
 
-    ChromeDriver driver;
+   public ChromeDriver driver;
     public void openBrowser(){
         driver =new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://mahara.org/?login");
+        driver.get("https://www.saucedemo.com/");
     }
     public void closeBrowser(){
         driver.close();

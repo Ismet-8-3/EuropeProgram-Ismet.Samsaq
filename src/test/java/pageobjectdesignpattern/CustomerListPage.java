@@ -1,5 +1,6 @@
 package pageobjectdesignpattern;
 
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
@@ -13,19 +14,27 @@ import org.openqa.selenium.support.PageFactory;
 public class CustomerListPage {
     ChromeDriver driver;
     FunctionsLibrary functionsLibrary;
-    @FindBy(linkText = "Add Customer")
-    WebElement addCustomerLink;
-    @FindBy(id = "cust-title")
-    WebElement titleField;
-    @FindBy(id = "name")
+    @FindBy(id = "react-burger-menu-btn")
+    WebElement dropLink;
+    @FindBy(id = "add-to-cart-sauce-labs-backpack")
+    WebElement addToCart;
+    @FindBy(id = "add-to-cart-sauce-labs-onesie")
+    WebElement addToCart1;
+    @FindBy(id = "shopping_cart_container")
+    WebElement shopingCar;
+    @FindBy(id = "checkout")
+    WebElement checkOut;
+    @FindBy(id = "first-name")
     WebElement firstNameField;
-    @FindBy(id = "name")
+    @FindBy(id = "last-name")
     WebElement lastNameField;
-    @FindBy(id = "name")
-    WebElement emailField;
-    @FindBy(name = "save")
-    WebElement saveButton;
-    @FindBy(id = "customer successfully added")
+    @FindBy(id = "postal-code")
+    WebElement zipCodeField;
+    @FindBy(id = "continue")
+    WebElement Continue;
+    @FindBy(id = "finish")
+    WebElement Finish;
+    @FindBy(className = "complete-header")
     WebElement customerAddedSuccessMessage;
 
 
@@ -34,19 +43,29 @@ public class CustomerListPage {
         PageFactory.initElements(driver,this);
         functionsLibrary=new FunctionsLibrary(driver);
     }
-    public void addCustomer(String title,String firstName,String lastName,String email){
-        functionsLibrary.waitForElementPresent(addCustomerLink);
-        addCustomerLink.click();
-        functionsLibrary.waitForElementPresent(titleField);
-        titleField.sendKeys(title);
+    public void addCustomer(String zipCode,String firstName,String lastName,String email){
+        functionsLibrary.waitForElementPresent(dropLink);
+        dropLink.click();
+        functionsLibrary.waitForElementPresent(addToCart);
+        addToCart.click();
+        functionsLibrary.waitForElementPresent(addToCart1);
+        addToCart.click();
+        functionsLibrary.waitForElementPresent(shopingCar);
+        shopingCar.click();
+        functionsLibrary.waitForElementPresent(checkOut);
+        checkOut.click();
         functionsLibrary.waitForElementPresent(firstNameField);
         firstNameField.sendKeys(firstName);
         functionsLibrary.waitForElementPresent(lastNameField);
         lastNameField.sendKeys(lastName);
-        functionsLibrary.waitForElementPresent(emailField);
-        emailField.sendKeys(email);
-        functionsLibrary.waitForElementPresent(saveButton);
-        saveButton.click();
+        functionsLibrary.waitForElementPresent(zipCodeField);
+        zipCodeField.sendKeys(zipCode);
+        functionsLibrary.waitForElementPresent(Continue);
+        Continue.click();
+        functionsLibrary.waitForElementPresent(Finish);
+        Finish.click();
+
+
     }
     public boolean verifyCustomerAdded(){
         functionsLibrary.waitForElementPresent(customerAddedSuccessMessage);

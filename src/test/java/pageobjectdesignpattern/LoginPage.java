@@ -14,16 +14,26 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage{
     ChromeDriver driver;
     FunctionsLibrary functionsLibrary;
-    @FindBy(id = "login_login_username")
+    @FindBy(id = "user-name")
     WebElement userNameField;
 
-    @FindBy(id = "login_login_password")
+    @FindBy(id = "password")
     WebElement passwordField;
-    @FindBy(id = "login_submit")
+    @FindBy(id = "login-button")
     WebElement loginButton;
 
     public LoginPage(ChromeDriver driver) {
         this.driver = driver;
+
+
+
+
+
+
+
+
+
+
 
         PageFactory.initElements(driver,this);
         functionsLibrary=new FunctionsLibrary(driver);
