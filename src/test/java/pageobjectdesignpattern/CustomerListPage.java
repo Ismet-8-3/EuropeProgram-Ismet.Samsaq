@@ -34,6 +34,8 @@ public class CustomerListPage {
     WebElement Continue;
     @FindBy(id = "finish")
     WebElement Finish;
+    @FindBy(id = "back-to-products")
+    WebElement backToProducts;
     @FindBy(className = "complete-header")
     WebElement customerAddedSuccessMessage;
 
@@ -43,7 +45,7 @@ public class CustomerListPage {
         PageFactory.initElements(driver,this);
         functionsLibrary=new FunctionsLibrary(driver);
     }
-    public void addCustomer(String zipCode,String firstName,String lastName,String email){
+    public void addCustomer(String zipCode,String firstName,String lastName){
         functionsLibrary.waitForElementPresent(dropLink);
         dropLink.click();
         functionsLibrary.waitForElementPresent(addToCart);
@@ -64,6 +66,8 @@ public class CustomerListPage {
         Continue.click();
         functionsLibrary.waitForElementPresent(Finish);
         Finish.click();
+        functionsLibrary.waitForElementPresent(backToProducts);
+        backToProducts.click();
 
 
     }

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="TestNG Annotation and attributes." />
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="TestNG Annotation and attributes.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/AddCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/AddCustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/FunctionsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/FunctionsLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,20 +74,7 @@
       <recent name="com.unitedcoder.csv" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddCustomerTest.addCustomerTest">
-    <configuration name="FlightSite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.uiautomation.FlightSite" />
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.unitedcoder.uiautomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.DataProviderDemo1.loginTest">
     <configuration name="AddCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
@@ -96,66 +90,89 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddCustomerTest.addCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProviderDemo1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageobjectdesignpattern.*" />
+          <option name="PATTERN" value="testngframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.AddCustomerTest" />
-      <option name="METHOD_NAME" value="addCustomerTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JunitTestDemo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junittestingframework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junittestingframework" />
-      <option name="MAIN_CLASS_NAME" value="junittestingframework.JunitTestDemo1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testngframework.TestNGDemo1,addCustomerTest and 3 more" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <option name="TEST_OBJECT" value="PATTERN" />
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.DataProviderDemo1" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <patterns>
-        <pattern testClass="testngframework.TestNGDemo1,addCustomerTest" />
-        <pattern testClass="testngframework.TestNGDemo1,editCustomerTest" />
-        <pattern testClass="testngframework.TestNGDemo1,deleteCustomer" />
-        <pattern testClass="testngframework.TestNGDemo1,addProduct" />
-      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProviderDemo1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.DataProviderDemo1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProviderDemo1.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.DataProviderDemo1" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataProviderDemo2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.DataProviderDemo2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FlightSite" />
       <item itemvalue="JUnit.AddCustomerTest" />
-      <item itemvalue="JUnit.AddCustomerTest.addCustomerTest" />
-      <item itemvalue="JUnit.JunitTestDemo1" />
-      <item itemvalue="TestNG.testngframework.TestNGDemo1,addCustomerTest and 3 more" />
+      <item itemvalue="TestNG.DataProviderDemo1" />
+      <item itemvalue="TestNG.DataProviderDemo1 (1)" />
+      <item itemvalue="TestNG.DataProviderDemo1.loginTest" />
+      <item itemvalue="TestNG.DataProviderDemo2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddCustomerTest.addCustomerTest" />
+        <item itemvalue="TestNG.DataProviderDemo1.loginTest" />
+        <item itemvalue="TestNG.DataProviderDemo1 (1)" />
         <item itemvalue="JUnit.AddCustomerTest" />
-        <item itemvalue="TestNG.testngframework.TestNGDemo1,addCustomerTest and 3 more" />
-        <item itemvalue="JUnit.JunitTestDemo1" />
-        <item itemvalue="Application.FlightSite" />
+        <item itemvalue="TestNG.DataProviderDemo2" />
+        <item itemvalue="TestNG.DataProviderDemo1" />
       </list>
     </recent_temporary>
   </component>

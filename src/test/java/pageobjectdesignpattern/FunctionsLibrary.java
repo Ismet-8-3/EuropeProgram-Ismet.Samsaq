@@ -1,5 +1,6 @@
 package pageobjectdesignpattern;
 
+import net.datafaker.Faker;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -13,11 +14,13 @@ import java.time.Duration;
  * @created : 09/11/2024,22:31
  * @Email : noah.yisimaiti@Gmail.com
  **/
-public class FunctionsLibrary {
+public class  FunctionsLibrary {
   ChromeDriver driver;
+  Faker faker=null;
 
     public FunctionsLibrary(ChromeDriver driver) {
         this.driver = driver;
+        faker=new Faker();
     }
 
     public void sleep(int seconds){
@@ -31,5 +34,14 @@ public class FunctionsLibrary {
         WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(6));
         wait.until(ExpectedConditions.visibilityOf(element));
 
+    }
+    public String generateFakeName(){
+        String firstName=faker.name().firstName();
+        return  firstName;
+
+    }
+    public String generateFakeEmail(){
+        String email=faker.internet().emailAddress();
+        return email;
     }
 }

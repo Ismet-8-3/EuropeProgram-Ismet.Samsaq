@@ -1,5 +1,6 @@
 package pageobjectdesignpattern;
 
+import net.datafaker.Faker;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -18,34 +19,39 @@ public class AddCustomerTest extends BaseClass{
     public void setUp(){
         openBrowser();
         loginPage=new LoginPage(driver);
+        loginPage.login("standard_user","secret_sauce");
         dashboardPage=new DashboardPage(driver);
         customerListPage=new CustomerListPage(driver);
     }
     @Test
     public void addCustomerTest(){
-        loginPage.login("standard_user","secret_sauce");
-
          customerListPage.addToCart.click();
          customerListPage.addToCart1.click();
          customerListPage.shopingCar.click();
          customerListPage.checkOut.click();
-         customerListPage.firstNameField.sendKeys("Ismet");
-        customerListPage.lastNameField.sendKeys("Samsaq");
+        Faker faker=new Faker();
+        String firstName=faker.name().firstName();
+        String lastname=faker.name().lastName();
+
+         customerListPage.firstNameField.sendKeys(firstName);
+        customerListPage.lastNameField.sendKeys(lastname);
          customerListPage.zipCodeField.sendKeys("2840");
          customerListPage.Continue.click();
          customerListPage.Finish.click();
-         customerListPage.verifyCustomerAdded();
-      // customerListPage.addCustomer("mr","ali","alim","asd@email.com");
-     Assertions.assertTrue(customerListPage.verifyCustomerAdded());
-       dashboardPage.dropLink();
-        dashboardPage.logOut();
+        customerListPage.verifyCustomerAdded();
+         //customerListPage.backToProducts.click();
+
+      //customerListPage.addCustomer("mr","ali","alim","asd@email.com");
+    Assertions.assertTrue(customerListPage.verifyCustomerAdded());
+     //  dashboardPage.dropLink();
+       // dashboardPage.logOut();
          }
 
 
-  @AfterEach
-  public void tearDown()
-  {
-      closeBrowser();
-    }
+  //@AfterEach
+ // public void tearDown()
+ //{
+     //// closeBrowser();
+    //}
 
 }
