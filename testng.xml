@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="CubeCart Application Test">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"></listener>
+    </listeners>
+  <test name="Customer Module Test">
+    <classes>
+       <class name="testngframework.TestNGDemo1"></class>
+       <class name="testngframework.TestNGDemo2"></class>
+    </classes>
+  </test>
+
+  <test name="Pruduct Test">
+    <classes>
+<class name="testngframework.TestNGDemo3"></class>
+        <class name="testngframework.DataProviderDemo1"></class>
+    </classes>
+  </test>
+    <test name="Inventory Functions Test">
+        <classes>
+            <class name="testngframework.DataProviderDemo2"></class>
+        </classes>
+    </test>
+            
+            
+</suite>

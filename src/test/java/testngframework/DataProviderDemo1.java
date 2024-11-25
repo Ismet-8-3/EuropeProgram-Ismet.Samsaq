@@ -1,5 +1,6 @@
 package testngframework;
 
+import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -30,6 +31,14 @@ public class DataProviderDemo1 extends BaseClass {
         dashboardPage.dropLink();
          dashboardPage.logOut();
     }
+    @AfterClass
+    public void tearDown(){
+        closeBrowser();
+    }
+
+
+
+
     @DataProvider
        public Object[][] loginData(){
     Object[][] credentials={
