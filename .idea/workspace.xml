@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="TestNG Annotation and attributes.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/AddCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/AddCustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/FunctionsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/FunctionsLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="mahara" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,22 +70,7 @@
       <recent name="com.unitedcoder.csv" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DataProviderDemo1.loginTest">
-    <configuration name="AddCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageobjectdesignpattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.AddCustomerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.DataProviderDemo2 (2)">
     <configuration name="DataProviderDemo1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
@@ -142,6 +123,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DataProviderDemo2 (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.DataProviderDemo2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DataProviderDemo2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
@@ -160,7 +158,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AddCustomerTest" />
+      <item itemvalue="TestNG.DataProviderDemo2 (2)" />
       <item itemvalue="TestNG.DataProviderDemo1" />
       <item itemvalue="TestNG.DataProviderDemo1 (1)" />
       <item itemvalue="TestNG.DataProviderDemo1.loginTest" />
@@ -168,11 +166,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DataProviderDemo1.loginTest" />
-        <item itemvalue="TestNG.DataProviderDemo1 (1)" />
-        <item itemvalue="JUnit.AddCustomerTest" />
-        <item itemvalue="TestNG.DataProviderDemo2" />
+        <item itemvalue="TestNG.DataProviderDemo2 (2)" />
         <item itemvalue="TestNG.DataProviderDemo1" />
+        <item itemvalue="TestNG.DataProviderDemo1 (1)" />
+        <item itemvalue="TestNG.DataProviderDemo2" />
+        <item itemvalue="TestNG.DataProviderDemo1.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -574,6 +572,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/unitedcoder/loops/ForLoop1.java</url>
           <line>8</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo2.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IllegalStateException" package="java.lang" />
