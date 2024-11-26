@@ -13,9 +13,9 @@ import org.openqa.selenium.support.PageFactory;
 public class DashboardPage1 {
     ChromeDriver driver;
     FunctionsLibrary functionsLibrary;
-@FindBy(className = "user-toggle")
+@FindBy(xpath = "//span[@class=\"icon icon-chevron-down collapsed\"]")
 WebElement dropLink;
-@FindBy(id = "nav-title")
+@FindBy(id = "logoutbutton")
 WebElement logOutLink;
     public DashboardPage1(ChromeDriver driver) {
         this.driver = driver;

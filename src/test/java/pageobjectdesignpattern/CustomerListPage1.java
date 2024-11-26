@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 public class CustomerListPage1 {
     ChromeDriver driver;
     FunctionsLibrary functionsLibrary;
-    @FindBy(id = "react-burger-menu-btn")
+    @FindBy(xpath = "//span[@class=\"icon icon-chevron-down collapsed\"]")
     WebElement dropLink;
     @FindBy(id = "add-to-cart-sauce-labs-backpack")
     WebElement addToCart;

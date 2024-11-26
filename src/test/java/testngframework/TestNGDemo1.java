@@ -28,18 +28,18 @@ public class TestNGDemo1 {
         System.out.println("Add customer test");
         Assert.assertEquals("Add Customer","Add Customer");
     }
-    @Test
+    @Test(priority = 2,groups = {"smok test","regression test"})
     public void editCustomerTest(){
         System.out.println("Edit Customer Test");
         Assert.assertTrue("Customer Name".contains("Name"));
     }
-    @Test
+    @Test(priority = 1,enabled = true,dependsOnGroups = "smoke test")
     public void deleteCustomer(){
         System.out.println("Delete customer test..");
         Assert.assertTrue(19>9);
 
     }
-    @Test
+    @Test(priority = 4,groups = "smoke test")
     public void addProduct(){
         System.out.println("Add Product test");
         Assert.assertTrue(11>10);

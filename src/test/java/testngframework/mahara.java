@@ -31,29 +31,30 @@ public class mahara extends BaseClass1  {
     @Test(priority = 1, dataProvider = "loginData")
     public void loginTest(String userName, String password) {
         loginPage1.login(userName, password);
-
+       // dashboardPage1.dropLink();
+       // dashboardPage1.logOut();
 
 
     }
-@Test(priority = 2,dataProvider = "logOut")
-public void logoutTest(){
-        dashboardPage1.logOut();
-}
 
-    //@Test(priority = 2, dataProvider = "customerInfo")
 
-    //public void  addCustomerTest( String firstName,String lastName,String zipcode){
-       // customerListPage.verifyCustomerAdded();
-      // customerListPage.addCustomer(firstName,lastName,zipcode);
-   // }
+ //  @Test(priority = 2, dataProvider = "customerInfo")
+
+  //public void  addCustomerTest( String firstName,String lastName,String zipcode){
+      //ustomerListPage1.verifyCustomerAdded();
+    // customerListPage1.addCustomer(firstName,lastName,zipcode);
+
+  // }
 
 
    @AfterClass
    public void tearDown(){
-        dashboardPage1.dropLink();
-        dashboardPage1.logOut();
-        closeBrowser();
-   }
+
+
+           dashboardPage1.dropLink();
+           dashboardPage1.logOut();
+       }
+
 
    /* @DataProvider
     public Object[][] customerInfo() {
