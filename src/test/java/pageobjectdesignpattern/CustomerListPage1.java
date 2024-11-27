@@ -3,6 +3,7 @@ package pageobjectdesignpattern;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
 /**
@@ -10,29 +11,29 @@ import org.openqa.selenium.support.PageFactory;
  * @created : 09/11/2024,23:01
  * @Email : noah.yisimaiti@Gmail.com
  **/
-public class CustomerListPage1 {
+public class CustomerListPage1  {
     ChromeDriver driver;
     FunctionsLibrary functionsLibrary;
     @FindBy(xpath = "//span[@class=\"icon icon-chevron-down collapsed\"]")
     WebElement dropLink;
-    @FindBy(id = "add-to-cart-sauce-labs-backpack")
-    WebElement addToCart;
-    @FindBy(id = "add-to-cart-sauce-labs-onesie")
-    WebElement addToCart1;
-    @FindBy(id = "shopping_cart_container")
-    WebElement shopingCar;
-    @FindBy(id = "checkout")
-    WebElement checkOut;
-    @FindBy(id = "first-name")
-    WebElement firstNameField;
-    @FindBy(id = "last-name")
+    @FindBy(id = "progress_item_blogaddress")
+    WebElement addBlogAddress;
+    @FindBy(xpath = "//button[@class=\"btn btn-secondary btn-sm align-with-input\"]")
+    WebElement addEmailAddress;
+    @FindBy(id = "addnewemail")
+    WebElement addNewEmail;
+    @FindBy(id = "profileform_officialwebsite")
+    WebElement officialWebsite;
+    @FindBy(id = "profileform_country")
+    WebElement Country;
+    @FindBy()
     WebElement lastNameField;
-    @FindBy(id = "postal-code")
-    WebElement zipCodeField;
-    @FindBy(id = "continue")
-    WebElement Continue;
-    @FindBy(id = "finish")
-    WebElement Finish;
+    @FindBy(id = "profileform_town")
+    WebElement Town;
+    @FindBy(id = "profileform_mobilenumber")
+    WebElement mobileNumber;
+    @FindBy(xpath = "//input[@type=\"submit\"]")
+    WebElement saveProfile;
     @FindBy(id = "back-to-products")
     WebElement backToProducts;
     @FindBy(className = "complete-header")
@@ -42,31 +43,31 @@ public class CustomerListPage1 {
     public CustomerListPage1(ChromeDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver,this);
+
         functionsLibrary=new FunctionsLibrary(driver);
     }
-    public void addCustomer(String zipCode,String firstName,String lastName){
-        functionsLibrary.waitForElementPresent(dropLink);
-        dropLink.click();
-        functionsLibrary.waitForElementPresent(addToCart);
-        addToCart.click();
-        functionsLibrary.waitForElementPresent(addToCart1);
-        addToCart.click();
-        functionsLibrary.waitForElementPresent(shopingCar);
-        shopingCar.click();
-        functionsLibrary.waitForElementPresent(checkOut);
-        checkOut.click();
-        functionsLibrary.waitForElementPresent(firstNameField);
-        firstNameField.sendKeys(firstName);
+    public void addCustomer(String zipCode,String firstName,String lastName,String email){
+
+        functionsLibrary.waitForElementPresent(addBlogAddress);
+        addBlogAddress.click();
+        functionsLibrary.waitForElementPresent(addEmailAddress);
+        addEmailAddress.click();
+        functionsLibrary.waitForElementPresent(addNewEmail);
+        addEmailAddress.sendKeys(email);
+        functionsLibrary.waitForElementPresent(officialWebsite);
+        officialWebsite.sendKeys("www.mahara.com");
+        functionsLibrary.waitForElementPresent(Country);
+        Country.click();
         functionsLibrary.waitForElementPresent(lastNameField);
         lastNameField.sendKeys(lastName);
-        functionsLibrary.waitForElementPresent(zipCodeField);
-        zipCodeField.sendKeys(zipCode);
-        functionsLibrary.waitForElementPresent(Continue);
-        Continue.click();
-        functionsLibrary.waitForElementPresent(Finish);
-        Finish.click();
-        functionsLibrary.waitForElementPresent(backToProducts);
-        backToProducts.click();
+        functionsLibrary.waitForElementPresent(Town);
+        Town.sendKeys("Terhagen");
+        functionsLibrary.waitForElementPresent(mobileNumber);
+        mobileNumber.sendKeys("23443233");
+        functionsLibrary.waitForElementPresent(saveProfile);
+        saveProfile.click();
+        functionsLibrary.waitForElementPresent(dropLink);
+        dropLink.click();
 
 
     }

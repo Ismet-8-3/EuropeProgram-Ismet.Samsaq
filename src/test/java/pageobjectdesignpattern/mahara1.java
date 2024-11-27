@@ -1,4 +1,4 @@
-package testngframework;
+package pageobjectdesignpattern;
 
 import net.datafaker.Faker;
 import org.junit.jupiter.api.Assertions;
@@ -6,14 +6,13 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pageobjectdesignpattern.*;
 
 /**
  * @author : ismetsasaq
  * @created : 12/11/2024,11:33
  * @Email : noah.yisimaiti@Gmail.com
  **/
-public class mahara extends BaseClass1  {
+public class mahara1 extends BaseClass1  {
     LoginPage1 loginPage1;
     DashboardPage1 dashboardPage1;
     FunctionsLibrary functionsLibrary;
@@ -39,16 +38,33 @@ public class mahara extends BaseClass1  {
     }
 
 
+@Test(priority = 2)
+    public void addCustomerTest(){
+        customerListPage1.addBlogAddress.click();
+        customerListPage1.addEmailAddress.click();
+        customerListPage1.addNewEmail.sendKeys(functionsLibrary.generateFakeEmail());
+        Faker faker=new Faker();
+        String firstName=faker.name().firstName();
+        String lastname=faker.name().lastName();
+         String email=faker.internet().emailAddress();
+        customerListPage1.officialWebsite.sendKeys(email);
+        //customerListPage1.Country.click();
+        customerListPage1.Town.sendKeys(lastname);
+        customerListPage1.mobileNumber.sendKeys(firstName);
+        customerListPage1.saveProfile.click();
+
+
+
+        //customerListPage.addCustomer("mr","ali","alim","asd@email.com");
+       // Assertions.assertTrue(customerListPage1.verifyCustomerAdded());
+        //  dashboardPage.dropLink();
+        // dashboardPage.logOut();
+    }
 
 
 
 
-    @Test(priority = 2, dataProvider = "customerInfo")
-
-    public void  addBlogAddressTest(){
-
-     }
-  @DataProvider
+  /*@DataProvider
   public Object[][] customerInfo() {
       long timeStamp = System.currentTimeMillis();
       Object[][] customerDetails = {
@@ -59,17 +75,17 @@ public class mahara extends BaseClass1  {
               {functionsLibrary.generateFakeName(), functionsLibrary.generateFakeName(), functionsLibrary.generateFakeEmail()}
       };
       return customerDetails;
-  }
+  }*/
 
-   @AfterClass
-   public void tearDown(){
+  /// @AfterClass
+  // public void tearDown(){
 
 
-           dashboardPage1.dropLink();
-           dashboardPage1.logOut();
-           closeBrowser();
+         //  dashboardPage1.dropLink();
+         //  dashboardPage1.logOut();
+          // closeBrowser();
 
-       }
+     //  }
 
 
 
