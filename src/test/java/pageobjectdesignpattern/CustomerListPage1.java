@@ -36,8 +36,8 @@ public class CustomerListPage1  {
     WebElement saveProfile;
     @FindBy(id = "back-to-products")
     WebElement backToProducts;
-    @FindBy(className = "complete-header")
-    WebElement customerAddedSuccessMessage;
+    @FindBy(xpath = "//div[@class=\"alert alert-success\"]")
+    WebElement Success;
 
 
     public CustomerListPage1(ChromeDriver driver) {
@@ -72,8 +72,8 @@ public class CustomerListPage1  {
 
     }
     public boolean verifyCustomerAdded(){
-        functionsLibrary.waitForElementPresent(customerAddedSuccessMessage);
-        if (customerAddedSuccessMessage.isDisplayed())
+        functionsLibrary.waitForElementPresent(Success);
+        if (Success.isDisplayed())
             return true;
         else
             return false;

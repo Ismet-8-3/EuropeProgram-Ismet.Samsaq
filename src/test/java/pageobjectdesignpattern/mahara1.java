@@ -21,8 +21,8 @@ public class mahara1 extends BaseClass1  {
     @BeforeClass
     public void setUp() {
         openBrowser();
-       loginPage1 =new LoginPage1(driver);
-      dashboardPage1=new DashboardPage1(driver);
+        loginPage1 =new LoginPage1(driver);
+        dashboardPage1=new DashboardPage1(driver);
         functionsLibrary = new FunctionsLibrary(driver);
         customerListPage1 = new CustomerListPage1(driver);
 
@@ -38,7 +38,7 @@ public class mahara1 extends BaseClass1  {
     }
 
 
-@Test(priority = 2)
+    @Test(priority = 2)
     public void addCustomerTest(){
         customerListPage1.addBlogAddress.click();
         customerListPage1.addEmailAddress.click();
@@ -46,19 +46,19 @@ public class mahara1 extends BaseClass1  {
         Faker faker=new Faker();
         String firstName=faker.name().firstName();
         String lastname=faker.name().lastName();
-         String email=faker.internet().emailAddress();
+        String email=faker.internet().emailAddress();
         customerListPage1.officialWebsite.sendKeys(email);
         //customerListPage1.Country.click();
         customerListPage1.Town.sendKeys(lastname);
         customerListPage1.mobileNumber.sendKeys(firstName);
-        customerListPage1.saveProfile.click();
+        customerListPage1.saveProfile.submit();
 
 
 
         //customerListPage.addCustomer("mr","ali","alim","asd@email.com");
-       // Assertions.assertTrue(customerListPage1.verifyCustomerAdded());
-        //  dashboardPage.dropLink();
-        // dashboardPage.logOut();
+
+        Assertions.assertTrue(customerListPage1.verifyCustomerAdded());
+
     }
 
 
@@ -77,15 +77,16 @@ public class mahara1 extends BaseClass1  {
       return customerDetails;
   }*/
 
-  /// @AfterClass
-  // public void tearDown(){
+    @AfterClass
+    public void tearDown(){
 
 
-         //  dashboardPage1.dropLink();
-         //  dashboardPage1.logOut();
-          // closeBrowser();
+        dashboardPage1.dropLink();
+        dashboardPage1.logOut();
+        closeBrowser();
 
-     //  }
+
+    }
 
 
 
