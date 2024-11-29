@@ -32,12 +32,12 @@ public class CustomerListPage1  {
     WebElement Town;
     @FindBy(id = "profileform_mobilenumber")
     WebElement mobileNumber;
-    @FindBy(xpath = "//input[@type=\"submit\"]")
+    @FindBy(id = "profileform_submit")
     WebElement saveProfile;
     @FindBy(id = "back-to-products")
     WebElement backToProducts;
-    @FindBy(className = "complete-header")
-    WebElement customerAddedSuccessMessage;
+    @FindBy(id = "messages")
+    WebElement profilesavedsuccessfully;
 
 
     public CustomerListPage1(ChromeDriver driver) {
@@ -72,8 +72,8 @@ public class CustomerListPage1  {
 
     }
     public boolean verifyCustomerAdded(){
-        functionsLibrary.waitForElementPresent(customerAddedSuccessMessage);
-        if (customerAddedSuccessMessage.isDisplayed())
+        functionsLibrary.waitForElementPresent(profilesavedsuccessfully);
+        if (profilesavedsuccessfully.isDisplayed())
             return true;
         else
             return false;

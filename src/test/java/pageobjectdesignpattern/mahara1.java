@@ -51,14 +51,14 @@ public class mahara1 extends BaseClass1  {
         //customerListPage1.Country.click();
         customerListPage1.Town.sendKeys(lastname);
         customerListPage1.mobileNumber.sendKeys(firstName);
-        customerListPage1.saveProfile.click();
+        customerListPage1.saveProfile.submit();
 
 
 
         //customerListPage.addCustomer("mr","ali","alim","asd@email.com");
-       // Assertions.assertTrue(customerListPage1.verifyCustomerAdded());
-        //  dashboardPage.dropLink();
-        // dashboardPage.logOut();
+
+    Assertions.assertTrue(customerListPage1.verifyCustomerAdded());
+
     }
 
 
@@ -77,15 +77,16 @@ public class mahara1 extends BaseClass1  {
       return customerDetails;
   }*/
 
-  /// @AfterClass
-  // public void tearDown(){
+   @AfterClass
+   public void tearDown(){
 
 
-         //  dashboardPage1.dropLink();
-         //  dashboardPage1.logOut();
-          // closeBrowser();
+          dashboardPage1.dropLink();
+          dashboardPage1.logOut();
+          closeBrowser();
 
-     //  }
+
+       }
 
 
 
