@@ -35,6 +35,10 @@ public class  FunctionsLibrary {
         wait.until(ExpectedConditions.visibilityOf(element));
 
     }
+    public void waitForAlertPresent(){
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(7));
+        wait.until(ExpectedConditions.alertIsPresent());
+    }
     public String generateFakeName(){
         String firstName=faker.name().firstName();
         return  firstName;
