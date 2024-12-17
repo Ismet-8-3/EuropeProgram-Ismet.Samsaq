@@ -15,6 +15,7 @@ import org.testng.annotations.Test;
  **/
 public class ActionDemo3 {
     WebDriver driver=new ChromeDriver();
+
     @Test
     public void rightClick(){
         driver.get("https://www.selenium.dev/selenium/web/mouse_interaction.html");
