@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -62,6 +63,8 @@ public class AdvanceActionsDemo {
     public void tearDown(){
         driver.close();
         driver.quit();
+         ((RemoteWebDriver) driver).resetInputState();
+
         }
 
     }
