@@ -65,6 +65,7 @@ public class AdvanceActionsDemo {
         driver.quit();
          ((RemoteWebDriver) driver).resetInputState();
 
+
         }
 
     }

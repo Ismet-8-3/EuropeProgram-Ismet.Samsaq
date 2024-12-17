@@ -1,0 +1,4 @@
+TestID,TestModule,TestType,TestStatus
+1,Customer,regression,Pass
+2,Inventory,regression,Pass
+3,Category,Smoke,Failed
