@@ -11,6 +11,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pageobjectdesignpattern.FunctionsLibrary;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
 /**
  * @author : ismetsasaq
  * @created : 08/12/2024,11:45
@@ -58,6 +62,60 @@ public class AdvanceActionsDemo {
             driver.findElement(By.linkText("Selectable")).click();
 
         }
+        @Test
+        public void menuTest(){
+        driver.get("https://jqueryui.com/menu/");
+        WebElement iframe=driver.findElement(By.tagName("iframe"));
+        driver.switchTo().frame(iframe);
+        Actions actions=new Actions(driver);
+        WebElement musicElement=driver.findElement(By.id("ui-id-9"));
+        functionsLibrary.waitForElementPresent(musicElement);
+        actions.moveToElement(musicElement).build().perform();
+        WebElement jazzMenu=driver.findElement(By.id("ui-id-13"));
+        functionsLibrary.waitForElementPresent(jazzMenu);
+        actions.moveToElement(jazzMenu).build().perform();
+        WebElement bigBand=driver.findElement(By.id("ui-id-15"));
+        functionsLibrary.waitForElementPresent(bigBand);
+        Assert.assertTrue(bigBand.isDisplayed());
+        }
+        /*@Test
+        public void multipleWindowTest(){
+        driver.get("www.google.com");
+        WebElement newWindowButton=driver.findElement(By.id("windowbutton"));
+        functionsLibrary.waitForElementPresent(newWindowButton);
+        String currentWindowName=driver.getWindowHandle();
+            System.out.println("Current window name"+currentWindowName);
+            newWindowButton.click();
+            Set<String> allWindows=driver.getWindowHandles();
+            for (String eachWindow:allWindows){
+                System.out.println("each window name:"+eachWindow);
+                if (!eachWindow.equalsIgnoreCase(currentWindowName)){
+                    driver.switchTo().window(eachWindow);
+                    WebElement goBackButton=driver.findElement(By.id("dsdssd"));
+                    Assert.assertTrue(goBackButton.isDisplayed());
+                }
+            }
+
+        }*/
+    @Test
+    public void testHyperLink(){
+        driver.get("https://jqueryui.com/");
+        List<WebElement> links= driver.findElements(By.xpath("//*[@id=\"sidebar\"]//a"));
+        int totalLinkCounts= links.size();
+        System.out.println("Total Links"+totalLinkCounts);
+        List<String> urls=new ArrayList<>();
+        for (WebElement l:links){
+            urls.add(l.getAttribute("href"));
+        }
+        int count=0;
+
+        for (String eachUrl:urls){
+            driver.navigate().to(eachUrl);
+            count++;
+         
+        }
+        Assert.assertEquals(totalLinkCounts,count);
+    }
         @AfterClass
     public void tearDown(){
         driver.close();

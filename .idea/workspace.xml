@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="TestNG Annotation and attributes.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/advanceactionsdemo/AdvanceActionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/EducationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngframework/ScreenShotUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngframework/TestResultListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/actions/ActionDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/actions/ActionsDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/actions/ActionsDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/DashboardPage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/DashboardPage1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/FunctionsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/FunctionsLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/TestNGRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/TestNGRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/advanceactionsdemo/AdvanceActionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/advanceactionsdemo/AdvanceActionsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,18 +73,48 @@
       <recent name="com.unitedcoder.excel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AdvanceActionsDemo.dragAndDropTest">
-    <configuration name="AdvanceActionsDemo.dragAndDropTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ActionDemo3.rightClick">
+    <configuration name="JunitTestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="advanceactionsdemo.*" />
+          <option name="PATTERN" value="junittestingframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="advanceactionsdemo" />
-      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.AdvanceActionsDemo" />
-      <option name="METHOD_NAME" value="dragAndDropTest" />
+      <option name="PACKAGE_NAME" value="junittestingframework" />
+      <option name="MAIN_CLASS_NAME" value="junittestingframework.JunitTestDemo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JunitTestDemo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junittestingframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junittestingframework" />
+      <option name="MAIN_CLASS_NAME" value="junittestingframework.JunitTestDemo1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActionDemo3.rightClick" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="actions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="actions" />
+      <option name="MAIN_CLASS_NAME" value="actions.ActionDemo3" />
+      <option name="METHOD_NAME" value="rightClick" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -95,35 +122,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvanceActionsDemo.moveToElement" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ActionsDemo2.copyAndPaste" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="advanceactionsdemo.*" />
+          <option name="PATTERN" value="actions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="advanceactionsdemo" />
-      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.AdvanceActionsDemo" />
-      <option name="METHOD_NAME" value="moveToElement" />
+      <option name="PACKAGE_NAME" value="actions" />
+      <option name="MAIN_CLASS_NAME" value="actions.ActionsDemo2" />
+      <option name="METHOD_NAME" value="copyAndPaste" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testngframework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testngframework" />
-      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -147,38 +157,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mahara1.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageobjectdesignpattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.mahara1" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.AdvanceActionsDemo.dragAndDropTest" />
-      <item itemvalue="TestNG.AdvanceActionsDemo.moveToElement" />
-      <item itemvalue="TestNG.TestNGRunner" />
+      <item itemvalue="JUnit.JunitTestDemo" />
+      <item itemvalue="JUnit.JunitTestDemo1" />
+      <item itemvalue="TestNG.ActionDemo3.rightClick" />
+      <item itemvalue="TestNG.ActionsDemo2.copyAndPaste" />
       <item itemvalue="TestNG.mahara1" />
-      <item itemvalue="TestNG.mahara1.loginTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AdvanceActionsDemo.dragAndDropTest" />
-        <item itemvalue="TestNG.AdvanceActionsDemo.moveToElement" />
-        <item itemvalue="TestNG.TestNGRunner" />
+        <item itemvalue="TestNG.ActionDemo3.rightClick" />
+        <item itemvalue="TestNG.ActionsDemo2.copyAndPaste" />
         <item itemvalue="TestNG.mahara1" />
-        <item itemvalue="TestNG.mahara1.loginTest" />
+        <item itemvalue="JUnit.JunitTestDemo" />
+        <item itemvalue="JUnit.JunitTestDemo1" />
       </list>
     </recent_temporary>
   </component>
