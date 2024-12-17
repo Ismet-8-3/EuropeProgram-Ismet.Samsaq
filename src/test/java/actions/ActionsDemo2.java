@@ -3,6 +3,7 @@ package actions;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -32,6 +33,8 @@ public class ActionsDemo2 {
                 .keyUp(cmdCtrl)
                 .build().perform();
        // Assert.assertEquals(textField.getAttribute("velue"),"AttilaAttilaAttila");
+        ((RemoteWebDriver) driver).resetInputState();
+
     }
 
 }
