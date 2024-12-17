@@ -24,4 +24,5 @@ public class ActionDemo3 {
         WebElement status=driver.findElement(By.id("click-status"));
         Assert.assertEquals(status.getText(),"context-clicked","not succesfuly");
     }
+
 }
