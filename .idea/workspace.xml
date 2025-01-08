@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="TestNG Annotation and attributes.">
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="TestNG Annotation and attributes.Actions">
+      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestoutomation/ConnectionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestoutomation/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestoutomation/TestDBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/advanceactionsdemo/AdvanceActionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/advanceactionsdemo/AdvanceActionsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -187,13 +192,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601131181857</updated>
-    </task>
-    <task id="LOCAL-00016" summary="collections">
-      <created>1603556345225</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1603556345225</updated>
     </task>
     <task id="LOCAL-00017" summary="collections">
       <created>1603825545760</created>
@@ -531,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732873833847</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="TestNG Annotation and attributes.Actions">
+      <created>1734455749322</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1734455749322</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -560,7 +565,8 @@
     <MESSAGE value="JUnit Test Framework Design" />
     <MESSAGE value="mahara login" />
     <MESSAGE value="TestNG Annotation and attributes." />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG Annotation and attributes." />
+    <MESSAGE value="TestNG Annotation and attributes.Actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG Annotation and attributes.Actions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

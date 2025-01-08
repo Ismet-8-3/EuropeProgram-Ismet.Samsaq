@@ -63,7 +63,7 @@ public class AdvanceActionsDemo {
     public void tearDown(){
         driver.close();
         driver.quit();
-         ((RemoteWebDriver) driver).resetInputState();
+
 
 
         }
