@@ -77,16 +77,16 @@ public class mahara1 extends BaseClass1  {
       return customerDetails;
   }*/
 
-    @AfterClass
-    public void tearDown(){
-
-
-        dashboardPage1.dropLink();
-        dashboardPage1.logOut();
-        closeBrowser();
-
-
-    }
+//    @AfterClass
+//    public void tearDown(){
+//
+//
+//        dashboardPage1.dropLink();
+//        dashboardPage1.logOut();
+//        closeBrowser();
+//
+//
+//    }
 
 
 
