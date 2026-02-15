@@ -12,6 +12,7 @@ public class JunitTestDemo {
     public static void beforeAllMethod(){
         System.out.println("Before all runs once");
     }
+
     @BeforeEach
     public void beforeEachMethod(){
         System.out.println("Before each method..");

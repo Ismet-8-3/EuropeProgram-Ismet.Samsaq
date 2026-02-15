@@ -7,6 +7,7 @@
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="TestNG Annotation and attributes.">
       <change afterPath="$PROJECT_DIR$/regression-test1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junittestingframework/JunitTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junittestingframework/JunitTestDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/mahara1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/mahara1.java" afterDir="false" />
     </list>
@@ -72,7 +73,7 @@
       <recent name="com.unitedcoder.excel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.mahara1">
+  <component name="RunManager" selected="JUnit.JunitTestDemo.addCustomerTest">
     <configuration name="AddCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
@@ -88,20 +89,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGDemo1.editCustomerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JunitTestDemo.addCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testngframework.*" />
+          <option name="PATTERN" value="junittestingframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testngframework" />
-      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo1" />
-      <option name="METHOD_NAME" value="editCustomerTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="junittestingframework" />
+      <option name="MAIN_CLASS_NAME" value="junittestingframework.JunitTestDemo" />
+      <option name="METHOD_NAME" value="addCustomerTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,19 +151,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.JunitTestDemo.addCustomerTest" />
       <item itemvalue="JUnit.AddCustomerTest" />
       <item itemvalue="TestNG.mahara1.addCustomerTest" />
       <item itemvalue="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/regression-test1.xml" />
-      <item itemvalue="TestNG.TestNGDemo1.editCustomerTest" />
       <item itemvalue="TestNG.mahara1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JunitTestDemo.addCustomerTest" />
         <item itemvalue="TestNG.mahara1" />
         <item itemvalue="TestNG.mahara1.addCustomerTest" />
         <item itemvalue="JUnit.AddCustomerTest" />
         <item itemvalue="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/regression-test1.xml" />
-        <item itemvalue="TestNG.TestNGDemo1.editCustomerTest" />
       </list>
     </recent_temporary>
   </component>
