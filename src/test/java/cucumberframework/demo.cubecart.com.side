@@ -1,0 +1,109 @@
+{
+  "id": "1dcad632-21ff-47a2-8649-d47ae0df73dc",
+  "version": "2.0",
+  "name": "https://demo.cubecart.com/cc6/admin_5xArPd.php",
+  "url": "https://demo.cubecart.com",
+  "tests": [{
+    "id": "b99cdce9-03d4-40ed-89f8-9d1b4d0f98d1",
+    "name": "CClogin",
+    "commands": [{
+      "id": "cef46c83-3656-4a61-8dff-38290c502983",
+      "comment": "",
+      "command": "open",
+      "target": "/cc6/admin_5xArPd.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac72dfaa-1647-4fba-a45f-700c19741452",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1080x618",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4afb29fe-8e0e-4f2d-b12f-7d41b455aadc",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='login-box']/div/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "cubecart"
+    }, {
+      "id": "5308d84c-2b5d-442b-b036-3fbc4fc1b96f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login-box']/div[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/span/input", "xpath:position"]
+      ],
+      "value": "cubecart"
+    }, {
+      "id": "d90ba647-84c5-45fd-9008-2d759d5139b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='login-box-foot']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04adca2d-e264-445f-8f2a-c6f9d9aa1d76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.joyride-modal-bg",
+      "targets": [
+        ["css=.joyride-modal-bg", "css:finder"],
+        ["xpath=//div[19]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "347acabb-165e-4e98-b847-08604078f330",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log Out",
+      "targets": [
+        ["linkText=Log Out", "linkText"],
+        ["css=.user_info > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Log Out')]", "xpath:link"],
+        ["xpath=//div[@id='header']/span/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '?_g=logout&token=791c86b109fb7b431e0905343d600fac')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Log Out ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf0edf6a-ef21-42b2-81fd-80d6c06008be",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bdbac5be-6e7f-4d00-9fb2-42e5d513a576",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b99cdce9-03d4-40ed-89f8-9d1b4d0f98d1"]
+  }],
+  "urls": ["https://demo.cubecart.com/"],
+  "plugins": []
+}
