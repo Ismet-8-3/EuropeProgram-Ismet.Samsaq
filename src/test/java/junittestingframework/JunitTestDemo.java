@@ -1,5 +1,6 @@
 package junittestingframework;
 
+import org.junit.Assert;
 import org.junit.jupiter.api.*;
 
 /**
@@ -25,6 +26,7 @@ public class JunitTestDemo {
         Assertions.assertTrue(10>9);
 
     }
+
     @Test
 
     public void editCustomer(){
@@ -35,7 +37,10 @@ public class JunitTestDemo {
 @Test
 
     public void deleteCustomer(){
-    System.out.println("Delete customer test");
+
+        System.out.println("Delete customer test");
+    Assert.assertEquals(4,4);
+    Assert.assertEquals("ok","ok");
 }
 @AfterEach
     public void afterEachMethod(){
