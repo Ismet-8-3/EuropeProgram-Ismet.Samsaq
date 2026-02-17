@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="TestNG Annotation and attributes.Actions" />
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="TestNG Annotation and attributes.Actions.go">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junittestingframework/JunitTestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junittestingframework/JunitTestDemo1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,9 +163,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.mahara1 (1)" />
         <item itemvalue="TestNG.mahara1" />
         <item itemvalue="TestNG.mahara1.addCustomerTest" />
+        <item itemvalue="TestNG.mahara1 (1)" />
         <item itemvalue="JUnit.AddCustomerTest" />
         <item itemvalue="JUnit.JunitTestDemo1" />
       </list>

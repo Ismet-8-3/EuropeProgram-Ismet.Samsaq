@@ -20,7 +20,7 @@ public class JunitTestDemo1 {
     @Test
     @Order(1)
     public void addCustomerTest(){
-        System.out.println("Add customer test..");
+        System.out.println("Add customer  test..");
         Assertions.assertTrue(10>9);
 
     }
