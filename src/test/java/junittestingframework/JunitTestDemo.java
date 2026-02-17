@@ -26,7 +26,13 @@ public class JunitTestDemo {
         Assertions.assertTrue(10>9);
 
     }
+    @Test
 
+    public void addCustomerTest1(){
+        System.out.println("Add customer test..");
+        Assertions.assertTrue(10>9);
+
+    }
     @Test
 
     public void editCustomer(){
