@@ -76,7 +76,7 @@
       <recent name="com.unitedcoder.excel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AdvanceActionsDemo.dragAndDropTest">
+  <component name="RunManager" selected="TestNG.mahara">
     <configuration name="AdvanceActionsDemo.dragAndDropTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
@@ -130,7 +130,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mahara1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="mahara" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.mahara" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mahara1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
@@ -147,38 +164,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mahara1.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageobjectdesignpattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.mahara1" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="TestNG.mahara" />
+      <item itemvalue="TestNG.mahara1 (1)" />
       <item itemvalue="TestNG.AdvanceActionsDemo.dragAndDropTest" />
       <item itemvalue="TestNG.AdvanceActionsDemo.moveToElement" />
       <item itemvalue="TestNG.TestNGRunner" />
-      <item itemvalue="TestNG.mahara1" />
-      <item itemvalue="TestNG.mahara1.loginTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.mahara" />
+        <item itemvalue="TestNG.mahara1 (1)" />
         <item itemvalue="TestNG.AdvanceActionsDemo.dragAndDropTest" />
         <item itemvalue="TestNG.AdvanceActionsDemo.moveToElement" />
         <item itemvalue="TestNG.TestNGRunner" />
-        <item itemvalue="TestNG.mahara1" />
-        <item itemvalue="TestNG.mahara1.loginTest" />
       </list>
     </recent_temporary>
   </component>
