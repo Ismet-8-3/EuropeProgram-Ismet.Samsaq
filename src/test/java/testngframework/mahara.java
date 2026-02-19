@@ -32,6 +32,7 @@ public class mahara extends BaseClass1  {
 
     @Test(priority = 1, dataProvider = "loginData")
     public void loginTest(String userName, String password) {
+
         loginPage1.login(userName, password);
 
 

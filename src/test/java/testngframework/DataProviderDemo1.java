@@ -26,7 +26,7 @@ public class DataProviderDemo1 extends BaseClass {
 
     }
     @Test(dataProvider = "loginData")
-    public void loginTest(String userName,String password){
+     public void loginTest(String userName,String password){
         loginPage.login(userName,password);
         dashboardPage.dropLink();
          dashboardPage.logOut();
