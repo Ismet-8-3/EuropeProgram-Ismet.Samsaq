@@ -23,17 +23,6 @@ public class LoginPage1 {
 
     public LoginPage1(ChromeDriver driver) {
         this.driver = driver;
-
-
-
-
-
-
-
-
-
-
-
         PageFactory.initElements(driver,this);
         functionsLibrary=new FunctionsLibrary(driver);
     }
