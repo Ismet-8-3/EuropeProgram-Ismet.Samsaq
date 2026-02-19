@@ -21,8 +21,8 @@ public class mahara1 extends BaseClass1  {
     @BeforeClass
     public void setUp() {
         openBrowser();
-        loginPage1 =new LoginPage1(driver);
-        dashboardPage1=new DashboardPage1(driver);
+        loginPage1 = new LoginPage1(driver);
+        dashboardPage1= new DashboardPage1(driver);
         functionsLibrary = new FunctionsLibrary(driver);
         customerListPage1 = new CustomerListPage1(driver);
 
