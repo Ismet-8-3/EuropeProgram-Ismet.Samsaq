@@ -10,8 +10,7 @@ import org.junit.jupiter.api.*;
 public class JunitTestDemo1 {
     @BeforeAll
     public static void beforeAllMethod(){
-        System.out.println("Before all runs once");
-    }
+        System.out.println("sdsdsdsds");    }
     @BeforeEach
     public void beforeEachMethod(){
         System.out.println("Before each method..");

@@ -13,7 +13,7 @@ public  class BaseClass {
     public void openBrowser(){
         driver =new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.saucedemo.com/");
+        driver.get("https://www.coeck.be/nl-be?srsltid=AfmBOoowoybNNtrFOY90VUymzStBptQwS7iVEa7oz3Grq4p0TyTWEJz2");
     }
     public void closeBrowser(){
         driver.close();
