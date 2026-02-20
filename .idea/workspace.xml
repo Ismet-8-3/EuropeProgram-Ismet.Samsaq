@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="File">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/junittestingframework/JunitTestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junittestingframework/JunitTestDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-qa.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-qa.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\testdata" />
+      <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests" />
+      <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\test-Result" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\test-Result" />
     </key>
@@ -56,11 +59,6 @@
       <recent name="com.unitedcoder.csv" />
       <recent name="com.unitedcoder.configutility" />
       <recent name="com.seleniummaster.conditions" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\testdata" />
-      <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests" />
-      <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\test-Result" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.AddCustomerTest">
