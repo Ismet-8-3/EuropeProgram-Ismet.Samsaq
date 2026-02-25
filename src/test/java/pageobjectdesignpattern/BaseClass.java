@@ -13,7 +13,7 @@ public  class BaseClass {
     public void openBrowser(){
         driver =new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.saucedemo.com/");
+        driver.get("https://admin-demo.nopcommerce.com/login?returnUrl=%2Fadmin%2F");
     }
     public void closeBrowser(){
         driver.close();

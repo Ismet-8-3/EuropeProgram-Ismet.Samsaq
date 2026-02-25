@@ -27,26 +27,17 @@ public class mahara extends BaseClass1  {
         functionsLibrary = new FunctionsLibrary(driver);
         customerListPage1 = new CustomerListPage1(driver);
 
-
     }
 
     @Test(priority = 1, dataProvider = "loginData")
     public void loginTest(String userName, String password) {
 
         loginPage1.login(userName, password);
-
-
-
     }
-
-
-
-
-
-
     @Test(priority = 2, dataProvider = "customerInfo")
 
-    public void  addBlogAddressTest(){
+    public void  addBlogAddressTest(){long timeStamp = System.currentTimeMillis();
+
 
      }
   @DataProvider
@@ -71,9 +62,6 @@ public class mahara extends BaseClass1  {
            closeBrowser();
 
        }
-
-
-
 
     @DataProvider
     public Object[][] loginData() {

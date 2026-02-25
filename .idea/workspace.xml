@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="TestNG Annotation and attributes.Actions.go">
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="File">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/MaharaDashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/ProfileCompletionTips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/ProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testngframework/MaharaAutomationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/junittestingframework/JunitTestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junittestingframework/JunitTestDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/AddCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/AddCustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/mahara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/mahara.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testng_code-compelt" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,7 +83,7 @@
       <recent name="com.unitedcoder.excel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.mahara1 (1)">
+  <component name="RunManager" selected="TestNG.MaharaAutomationTest.loginTest">
     <configuration name="AddCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
@@ -87,22 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JunitTestDemo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junittestingframework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junittestingframework" />
-      <option name="MAIN_CLASS_NAME" value="junittestingframework.JunitTestDemo1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mahara1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddCustomerTest.addCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
@@ -111,43 +108,59 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.mahara1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mahara1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageobjectdesignpattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.mahara1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mahara1.addCustomerTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageobjectdesignpattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.mahara1" />
+      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.AddCustomerTest" />
       <option name="METHOD_NAME" value="addCustomerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaharaAutomationTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.MaharaAutomationTest" />
+      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGRunner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -156,18 +169,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AddCustomerTest" />
-      <item itemvalue="JUnit.JunitTestDemo1" />
-      <item itemvalue="TestNG.mahara1 (1)" />
-      <item itemvalue="TestNG.mahara1.addCustomerTest" />
-      <item itemvalue="TestNG.mahara1" />
+      <item itemvalue="JUnit.AddCustomerTest.addCustomerTest" />
+      <item itemvalue="TestNG.MaharaAutomationTest.loginTest" />
+      <item itemvalue="TestNG.TestNGRunner (1)" />
+      <item itemvalue="TestNG.TestNGRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.mahara1" />
-        <item itemvalue="TestNG.mahara1.addCustomerTest" />
-        <item itemvalue="TestNG.mahara1 (1)" />
+        <item itemvalue="TestNG.MaharaAutomationTest.loginTest" />
         <item itemvalue="JUnit.AddCustomerTest" />
-        <item itemvalue="JUnit.JunitTestDemo1" />
+        <item itemvalue="JUnit.AddCustomerTest.addCustomerTest" />
+        <item itemvalue="TestNG.TestNGRunner (1)" />
+        <item itemvalue="TestNG.TestNGRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -580,6 +593,15 @@
           <properties class="java.lang.IllegalStateException" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo1.java</url>
+          <line>31</line>
+          <properties class="testngframework.TestNGDemo1" method="editCustomerTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

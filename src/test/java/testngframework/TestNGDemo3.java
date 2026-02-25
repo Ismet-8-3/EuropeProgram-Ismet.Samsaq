@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
  **/
 public class TestNGDemo3 {
     @Test(invocationCount = 3,invocationTimeOut = 100)
+
     public void myTest(){
         System.out.println("Test Pass!!");
     }
