@@ -15,12 +15,12 @@ import org.openqa.selenium.support.PageFactory;
 public class LoginPage{
     ChromeDriver driver;
     FunctionsLibrary functionsLibrary;
-    @FindBy(id = "Email")
-    WebElement userNameField;
+   @FindBy(xpath = "//input[@class=\"email valid\"]")
+   WebElement userNameField;
 
     @FindBy(id = "Password")
-    WebElement passwordField;
-    @FindBy(xpath ="//*[@type='submit']"
+ WebElement passwordField;
+    @FindBy(xpath ="//button[@type=\"submit\"]"
     )
     WebElement loginButton;
 
@@ -29,13 +29,15 @@ public class LoginPage{
         PageFactory.initElements(driver,this);
         functionsLibrary=new FunctionsLibrary(driver);
     }
-    public void login(String userName,String password) {
+   public void login(String userName,String password) {
         functionsLibrary.waitForElementPresent(userNameField);
         userNameField.sendKeys(userName);
         functionsLibrary.waitForElementPresent(passwordField);
         passwordField.sendKeys(password);
         functionsLibrary.waitForElementPresent(loginButton);
         loginButton.click();
-    }}
+    }
+    }
+
 
 

@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="File">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/MaharaDashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/ProfileCompletionTips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/ProfilePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testngframework/MaharaAutomationTest.java" afterDir="false" />
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment=" maharaTest">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/automation/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/Customers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/DashBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/FuctionLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/LogInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/nopC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/AddCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/AddCustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/mahara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/mahara.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,104 +79,97 @@
       <recent name="com.unitedcoder.excel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MaharaAutomationTest.loginTest">
-    <configuration name="AddCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.nopC.AddCustomers">
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.automation.Login" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageobjectdesignpattern.*" />
+          <option name="PATTERN" value="com.unitedcoder.automation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.AddCustomerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nopC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nopc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nopc" />
+      <option name="MAIN_CLASS_NAME" value="nopc.nopC" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddCustomerTest.addCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="nopC.AddCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageobjectdesignpattern.*" />
+          <option name="PATTERN" value="nopc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.AddCustomerTest" />
-      <option name="METHOD_NAME" value="addCustomerTest" />
+      <option name="PACKAGE_NAME" value="nopc" />
+      <option name="MAIN_CLASS_NAME" value="nopc.nopC" />
+      <option name="METHOD_NAME" value="AddCustomers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaharaAutomationTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="nopC.Logout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testngframework.*" />
+          <option name="PATTERN" value="nopc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testngframework" />
-      <option name="MAIN_CLASS_NAME" value="testngframework.MaharaAutomationTest" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="nopc" />
+      <option name="MAIN_CLASS_NAME" value="nopc.nopC" />
+      <option name="METHOD_NAME" value="Logout" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGRunner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="nopC.setUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testngframework.*" />
+          <option name="PATTERN" value="nopc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testngframework" />
-      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testngframework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testngframework" />
-      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="nopc" />
+      <option name="MAIN_CLASS_NAME" value="nopc.nopC" />
+      <option name="METHOD_NAME" value="setUp" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AddCustomerTest" />
-      <item itemvalue="JUnit.AddCustomerTest.addCustomerTest" />
-      <item itemvalue="TestNG.MaharaAutomationTest.loginTest" />
-      <item itemvalue="TestNG.TestNGRunner (1)" />
-      <item itemvalue="TestNG.TestNGRunner" />
+      <item itemvalue="Application.Login" />
+      <item itemvalue="JUnit.nopC" />
+      <item itemvalue="JUnit.nopC.AddCustomers" />
+      <item itemvalue="JUnit.nopC.Logout" />
+      <item itemvalue="JUnit.nopC.setUp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MaharaAutomationTest.loginTest" />
-        <item itemvalue="JUnit.AddCustomerTest" />
-        <item itemvalue="JUnit.AddCustomerTest.addCustomerTest" />
-        <item itemvalue="TestNG.TestNGRunner (1)" />
-        <item itemvalue="TestNG.TestNGRunner" />
+        <item itemvalue="JUnit.nopC.AddCustomers" />
+        <item itemvalue="Application.Login" />
+        <item itemvalue="JUnit.nopC" />
+        <item itemvalue="JUnit.nopC.Logout" />
+        <item itemvalue="JUnit.nopC.setUp" />
       </list>
     </recent_temporary>
   </component>
@@ -195,13 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601131181857</updated>
-    </task>
-    <task id="LOCAL-00018" summary="collections">
-      <created>1604169164662</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1604169164662</updated>
     </task>
     <task id="LOCAL-00019" summary="collections">
       <created>1604169745043</created>
@@ -539,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736312897104</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary=" maharaTest">
+      <created>1772043684572</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1772043684573</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -569,7 +558,8 @@
     <MESSAGE value="mahara login" />
     <MESSAGE value="TestNG Annotation and attributes." />
     <MESSAGE value="TestNG Annotation and attributes.Actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG Annotation and attributes.Actions" />
+    <MESSAGE value=" maharaTest" />
+    <option name="LAST_COMMIT_MESSAGE" value=" maharaTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
