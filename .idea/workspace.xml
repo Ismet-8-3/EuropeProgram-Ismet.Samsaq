@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="TestNG Annotation and attributes.Actions.go">
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment=" NopCommerce Add customer Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/junittestingframework/JunitTestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junittestingframework/JunitTestDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nopc/nopC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopc/nopCTestJunit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="testng_code-compelt" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,47 +72,17 @@
       <recent name="com.unitedcoder.excel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.mahara1 (1)">
-    <configuration name="AddCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestNGDemo3">
+    <configuration name="TestNGDemo1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageobjectdesignpattern.*" />
+          <option name="PATTERN" value="testngframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.AddCustomerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JunitTestDemo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junittestingframework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junittestingframework" />
-      <option name="MAIN_CLASS_NAME" value="junittestingframework.JunitTestDemo1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mahara1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pageobjectdesignpattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.mahara1" />
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -119,16 +90,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mahara1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGDemo2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageobjectdesignpattern.*" />
+          <option name="PATTERN" value="testngframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.mahara1" />
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo2" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -136,17 +107,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mahara1.addCustomerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGDemo2.deleteCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pageobjectdesignpattern.*" />
+          <option name="PATTERN" value="testngframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pageobjectdesignpattern" />
-      <option name="MAIN_CLASS_NAME" value="pageobjectdesignpattern.mahara1" />
-      <option name="METHOD_NAME" value="addCustomerTest" />
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo2" />
+      <option name="METHOD_NAME" value="deleteCustomer" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGDemo3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo3" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGDemo3.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testngframework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo3" />
+      <option name="METHOD_NAME" value="myTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,19 +161,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AddCustomerTest" />
-      <item itemvalue="JUnit.JunitTestDemo1" />
-      <item itemvalue="TestNG.mahara1 (1)" />
-      <item itemvalue="TestNG.mahara1.addCustomerTest" />
-      <item itemvalue="TestNG.mahara1" />
+      <item itemvalue="TestNG.TestNGDemo1" />
+      <item itemvalue="TestNG.TestNGDemo2" />
+      <item itemvalue="TestNG.TestNGDemo2.deleteCustomer" />
+      <item itemvalue="TestNG.TestNGDemo3" />
+      <item itemvalue="TestNG.TestNGDemo3.myTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.mahara1" />
-        <item itemvalue="TestNG.mahara1.addCustomerTest" />
-        <item itemvalue="TestNG.mahara1 (1)" />
-        <item itemvalue="JUnit.AddCustomerTest" />
-        <item itemvalue="JUnit.JunitTestDemo1" />
+        <item itemvalue="TestNG.TestNGDemo3" />
+        <item itemvalue="TestNG.TestNGDemo3.myTest" />
+        <item itemvalue="TestNG.TestNGDemo2.deleteCustomer" />
+        <item itemvalue="TestNG.TestNGDemo2" />
+        <item itemvalue="TestNG.TestNGDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -182,20 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601131181857</updated>
-    </task>
-    <task id="LOCAL-00018" summary="collections">
-      <created>1604169164662</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1604169164662</updated>
-    </task>
-    <task id="LOCAL-00019" summary="collections">
-      <created>1604169745043</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1604169745043</updated>
     </task>
     <task id="LOCAL-00020" summary="collections">
       <created>1604431503813</created>
@@ -526,7 +518,21 @@
       <option name="project" value="LOCAL" />
       <updated>1736312897104</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary=" maharaTest">
+      <created>1772043684572</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1772043684573</updated>
+    </task>
+    <task id="LOCAL-00068" summary=" NopCommerce Add customer Test">
+      <created>1772218141965</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1772218141965</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -556,7 +562,9 @@
     <MESSAGE value="mahara login" />
     <MESSAGE value="TestNG Annotation and attributes." />
     <MESSAGE value="TestNG Annotation and attributes.Actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG Annotation and attributes.Actions" />
+    <MESSAGE value=" maharaTest" />
+    <MESSAGE value=" NopCommerce Add customer Test" />
+    <option name="LAST_COMMIT_MESSAGE" value=" NopCommerce Add customer Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

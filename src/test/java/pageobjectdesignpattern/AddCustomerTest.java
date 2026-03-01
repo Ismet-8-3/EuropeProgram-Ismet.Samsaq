@@ -19,7 +19,7 @@ public class AddCustomerTest extends BaseClass{
     public void setUp(){
         openBrowser();
         loginPage=new LoginPage(driver);
-        loginPage.login("standard_user","secret_sauce");
+        loginPage.login("admin@yourstore.com","admin");
         dashboardPage=new DashboardPage(driver);
         customerListPage=new CustomerListPage(driver);
     }

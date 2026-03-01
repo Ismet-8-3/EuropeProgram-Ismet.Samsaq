@@ -8,7 +8,8 @@ import org.testng.annotations.Test;
  * @Email : noah.yisimaiti@Gmail.com
  **/
 public class TestNGDemo3 {
-    @Test(invocationCount = 3,invocationTimeOut = 100)
+    @Test(invocationCount = 3,invocationTimeOut = 10)
+
     public void myTest(){
         System.out.println("Test Pass!!");
     }

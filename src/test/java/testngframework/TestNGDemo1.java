@@ -28,7 +28,7 @@ public class TestNGDemo1 {
         System.out.println("Add customer test");
         Assert.assertEquals("Add Customer","Add Customer");
     }
-    @Test(priority = 2,groups = {"smok test","regression test"})
+    @Test(priority = 2,enabled = true,groups = {"smoke test","regression test"})
     public void editCustomerTest(){
         System.out.println("Edit Customer Test");
         Assert.assertTrue("Customer Name".contains("Name"));

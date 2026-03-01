@@ -15,7 +15,7 @@ import pageobjectdesignpattern.*;
  * @created : 12/11/2024,11:33
  * @Email : noah.yisimaiti@Gmail.com
  **/
-public class DataProviderDemo2 extends BaseClass  {
+public class DataProviderDemo2 extends  BaseClass {
     LoginPage loginPage;
     DashboardPage dashboardPage;
     FunctionsLibrary functionsLibrary;
@@ -41,12 +41,11 @@ public class DataProviderDemo2 extends BaseClass  {
 
 
 
-    //@Test(priority = 2, dataProvider = "customerInfo")
+    @Test(priority = 2, dataProvider = "customerInfo")
 
-    //public void  addCustomerTest( String firstName,String lastName,String zipcode){
-       // customerListPage.verifyCustomerAdded();
-      // customerListPage.addCustomer(firstName,lastName,zipcode);
-   // }
+    public void  addCustomerTest( String firstName,String lastName,String zipcode){
+        customerListPage.verifyCustomerAdded(); customerListPage.addCustomer(firstName,lastName,zipcode);
+   }
 
     @AfterClass
     public void tearDown() {
@@ -70,7 +69,7 @@ public class DataProviderDemo2 extends BaseClass  {
 
     @DataProvider
     public Object[][] loginData() {
-        Object[][] credentials = {{"standard_user", "secret_sauce"}
+        Object[][] credentials = {{"admin", "MaharaDemo"}
         };
 
         return credentials;

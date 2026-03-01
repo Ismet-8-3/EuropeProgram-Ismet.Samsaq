@@ -3,16 +3,14 @@ package pageobjectdesignpattern;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 
 /**
  * @author : ismetsasaq
- * @created : 09/11/2024,23:01
+ * @created : 22/02/2026,16:01
  * @Email : noah.yisimaiti@Gmail.com
  **/
-public class CustomerListPage1  {
-
+public class ProfilePage {
     ChromeDriver driver;
     FunctionsLibrary functionsLibrary;
     @FindBy(xpath = "//span[@class=\"icon icon-chevron-down collapsed\"]")
@@ -41,13 +39,13 @@ public class CustomerListPage1  {
     WebElement Success;
 
 
-    public CustomerListPage1(ChromeDriver driver) {
+    public ProfilePage(ChromeDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver,this);
 
         functionsLibrary=new FunctionsLibrary(driver);
     }
-    public void addCustomer(String zipCode,String firstName,String lastName,String email){
+    public void proFile(String zipCode,String firstName,String lastName,String email){
 
         functionsLibrary.waitForElementPresent(addBlogAddress);
         addBlogAddress.click();
@@ -80,3 +78,5 @@ public class CustomerListPage1  {
             return false;
     }
 }
+
+
