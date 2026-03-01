@@ -1,20 +1,15 @@
 package nopc;
 
-import net.datafaker.Faker;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import pageobjectdesignpattern.CustomerListPage;
-import pageobjectdesignpattern.DashboardPage;
-import pageobjectdesignpattern.LoginPage;
 
 /**
  * @author : ismetsasaq
  * @created : 25/02/2026,20:18
  * @Email : noah.yisimaiti@Gmail.com
  **/
-public class nopC extends BaseClass {
+public class nopCTestJunit extends BaseClass {
     LogInPage logInPage;
     DashBoard dashBoard;
     Customers customers;
@@ -49,7 +44,9 @@ public class nopC extends BaseClass {
 
 
 
+
     }
+
     //  @Test
    // public void Logout(){
       //  dashBoard.logOut();

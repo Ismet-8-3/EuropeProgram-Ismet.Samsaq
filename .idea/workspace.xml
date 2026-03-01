@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment=" maharaTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/automation/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/Customers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/DashBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/FuctionLibrary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/LogInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/nopC.java" afterDir="false" />
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment=" NopCommerce Add customer Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nopc/nopC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopc/nopCTestJunit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,97 +72,108 @@
       <recent name="com.unitedcoder.excel" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.nopC.AddCustomers">
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.automation.Login" />
+  <component name="RunManager" selected="TestNG.TestNGDemo3">
+    <configuration name="TestNGDemo1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.unitedcoder.automation.*" />
+          <option name="PATTERN" value="testngframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nopC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGDemo2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nopc.*" />
+          <option name="PATTERN" value="testngframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nopc" />
-      <option name="MAIN_CLASS_NAME" value="nopc.nopC" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nopC.AddCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGDemo2.deleteCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nopc.*" />
+          <option name="PATTERN" value="testngframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nopc" />
-      <option name="MAIN_CLASS_NAME" value="nopc.nopC" />
-      <option name="METHOD_NAME" value="AddCustomers" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo2" />
+      <option name="METHOD_NAME" value="deleteCustomer" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nopC.Logout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGDemo3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nopc.*" />
+          <option name="PATTERN" value="testngframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nopc" />
-      <option name="MAIN_CLASS_NAME" value="nopc.nopC" />
-      <option name="METHOD_NAME" value="Logout" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo3" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nopC.setUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNGDemo3.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nopc.*" />
+          <option name="PATTERN" value="testngframework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nopc" />
-      <option name="MAIN_CLASS_NAME" value="nopc.nopC" />
-      <option name="METHOD_NAME" value="setUp" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="testngframework" />
+      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo3" />
+      <option name="METHOD_NAME" value="myTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Login" />
-      <item itemvalue="JUnit.nopC" />
-      <item itemvalue="JUnit.nopC.AddCustomers" />
-      <item itemvalue="JUnit.nopC.Logout" />
-      <item itemvalue="JUnit.nopC.setUp" />
+      <item itemvalue="TestNG.TestNGDemo1" />
+      <item itemvalue="TestNG.TestNGDemo2" />
+      <item itemvalue="TestNG.TestNGDemo2.deleteCustomer" />
+      <item itemvalue="TestNG.TestNGDemo3" />
+      <item itemvalue="TestNG.TestNGDemo3.myTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.nopC.AddCustomers" />
-        <item itemvalue="Application.Login" />
-        <item itemvalue="JUnit.nopC" />
-        <item itemvalue="JUnit.nopC.Logout" />
-        <item itemvalue="JUnit.nopC.setUp" />
+        <item itemvalue="TestNG.TestNGDemo3" />
+        <item itemvalue="TestNG.TestNGDemo3.myTest" />
+        <item itemvalue="TestNG.TestNGDemo2.deleteCustomer" />
+        <item itemvalue="TestNG.TestNGDemo2" />
+        <item itemvalue="TestNG.TestNGDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -184,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601131181857</updated>
-    </task>
-    <task id="LOCAL-00019" summary="collections">
-      <created>1604169745043</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1604169745043</updated>
     </task>
     <task id="LOCAL-00020" summary="collections">
       <created>1604431503813</created>
@@ -528,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1772043684573</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary=" NopCommerce Add customer Test">
+      <created>1772218141965</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1772218141965</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -559,7 +563,8 @@
     <MESSAGE value="TestNG Annotation and attributes." />
     <MESSAGE value="TestNG Annotation and attributes.Actions" />
     <MESSAGE value=" maharaTest" />
-    <option name="LAST_COMMIT_MESSAGE" value=" maharaTest" />
+    <MESSAGE value=" NopCommerce Add customer Test" />
+    <option name="LAST_COMMIT_MESSAGE" value=" NopCommerce Add customer Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -583,15 +588,6 @@
           <properties class="java.lang.IllegalStateException" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo1.java</url>
-          <line>31</line>
-          <properties class="testngframework.TestNGDemo1" method="editCustomerTest">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
