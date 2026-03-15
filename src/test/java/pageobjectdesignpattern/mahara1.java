@@ -1,5 +1,6 @@
 package pageobjectdesignpattern;
 
+import io.cucumber.java.an.E;
 import net.datafaker.Faker;
 import org.junit.jupiter.api.Assertions;
 import org.testng.annotations.AfterClass;
@@ -17,6 +18,7 @@ public class mahara1 extends BaseClass1  {
     DashboardPage1 dashboardPage1;
     FunctionsLibrary functionsLibrary;
     CustomerListPage1 customerListPage1;
+    EducationPage educationPage;
 
     @BeforeClass
     public void setUp() {
@@ -25,6 +27,7 @@ public class mahara1 extends BaseClass1  {
         dashboardPage1= new DashboardPage1(driver);
         functionsLibrary = new FunctionsLibrary(driver);
         customerListPage1 = new CustomerListPage1(driver);
+        educationPage=new EducationPage(driver);
 
 
     }
@@ -38,8 +41,10 @@ public class mahara1 extends BaseClass1  {
     }
 
 
-    @Test(priority = 2)
-    public void addCustomerTest(){
+    @Test(priority = 2,dependsOnMethods = "loginTest")
+    public void addBlogTest(){
+        customerListPage1.group.click();
+
         customerListPage1.addBlogAddress.click();
         customerListPage1.addEmailAddress.click();
         customerListPage1.addNewEmail.sendKeys(functionsLibrary.generateFakeEmail());
@@ -59,12 +64,17 @@ public class mahara1 extends BaseClass1  {
 
         Assertions.assertTrue(customerListPage1.verifyCustomerAdded());
 
+
+
+
+
+
     }
 
 
 
 
-  /*@DataProvider
+  @DataProvider
   public Object[][] customerInfo() {
       long timeStamp = System.currentTimeMillis();
       Object[][] customerDetails = {
@@ -75,7 +85,7 @@ public class mahara1 extends BaseClass1  {
               {functionsLibrary.generateFakeName(), functionsLibrary.generateFakeName(), functionsLibrary.generateFakeEmail()}
       };
       return customerDetails;
-  }*/
+  }
 
 //    @AfterClass
 //    public void tearDown(){

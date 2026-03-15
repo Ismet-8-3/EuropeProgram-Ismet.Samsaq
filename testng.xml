@@ -15,11 +15,13 @@
     <classes>
 <class name="testngframework.TestNGDemo3"></class>
         <class name="testngframework.DataProviderDemo1"></class>
+        <class name="testngframework.mahara"></class>
+        <class name="pageobjectdesignpattern.mahara1"></class>
     </classes>
   </test>
     <test name="Inventory Functions Test">
         <classes>
-            <class name="testngframework.DataProviderDemo2"></class>
+            <class name="advanceactionsdemo.AdvanceActionsDemo"></class>
         </classes>
     </test>
             

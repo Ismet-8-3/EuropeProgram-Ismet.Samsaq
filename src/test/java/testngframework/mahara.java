@@ -19,7 +19,7 @@ public class mahara extends BaseClass1  {
     FunctionsLibrary functionsLibrary;
     CustomerListPage1 customerListPage1;
 
-    @BeforeClass
+    @BeforeClass(groups = "regression test")
     public void setUp() {
         openBrowser();
        loginPage1 =new LoginPage1(driver);
@@ -29,18 +29,18 @@ public class mahara extends BaseClass1  {
 
     }
 
-    @Test(priority = 1, dataProvider = "loginData")
+    @Test(priority = 1, dataProvider = "loginData",groups = {"smoke test","regression test"})
     public void loginTest(String userName, String password) {
 
         loginPage1.login(userName, password);
     }
-    @Test(priority = 2, dataProvider = "customerInfo")
+    @Test(priority = 2, dataProvider = "Add log",dependsOnMethods = "loginTest")
 
     public void  addBlogAddressTest(){long timeStamp = System.currentTimeMillis();
-
+        customerListPage1.addCustomer("2020","nop","pop","nop.pop"+timeStamp+"@gmail.com");
 
      }
-  @DataProvider
+  @DataProvider()
   public Object[][] customerInfo() {
       long timeStamp = System.currentTimeMillis();
       Object[][] customerDetails = {
@@ -53,15 +53,15 @@ public class mahara extends BaseClass1  {
       return customerDetails;
   }
 
-   @AfterClass
-   public void tearDown(){
-
-
-           dashboardPage1.dropLink();
-           dashboardPage1.logOut();
-           closeBrowser();
-
-       }
+//   @AfterClass
+//   public void tearDown(){
+//
+//
+//           dashboardPage1.dropLink();
+//           dashboardPage1.logOut();
+//           closeBrowser();
+//
+//       }
 
     @DataProvider
     public Object[][] loginData() {

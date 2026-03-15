@@ -14,18 +14,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Login {
     public static void main(String[] args) {
         ChromeDriver driver=new ChromeDriver();
-        driver.get("https://admin-demo.nopcommerce.com/login?returnUrl=%2Fadmin%2F");
+        driver.get("https://demo.cubecart.com/cc6/admin_5xArPd.php");
         driver.manage().window().maximize();
 
-       // WebElement userNameField=driver.findElement(By.xpath("//input[@class=\"email valid\"]"));
-       // userNameField.sendKeys("admin@yourstore.com");
-       // WebElement passWordField=driver.findElement(By.id("Password"));
-       // passWordField.sendKeys("admin");
-        WebElement loginButton=driver.findElement(By.xpath("//button[@type=\"submit\"]"));
+       WebElement userNameField=driver.findElement(By.id("username"));
+        userNameField.sendKeys("cubecart");
+       WebElement passWordField=driver.findElement(By.id("password"));
+        passWordField.sendKeys("cubecart");
+        WebElement loginButton=driver.findElement(By.id("login"));
         loginButton.click();
-        WebElement customer=driver.findElement(By.xpath("(//li[(@class=\"nav-item has-treeview\")])[4]"));
-        customer.click();
-        WebElement cutomers=driver.findElement(By.xpath("//a[@href=\"/Admin/Customer/List\"]"));
-        cutomers.click();
+       // WebElement customer=driver.findElement(By.id("password"));
+       // customer.click();
+       // WebElement cutomers=driver.findElement(By.id("login"));
+       // cutomers.click();
     }
 }
