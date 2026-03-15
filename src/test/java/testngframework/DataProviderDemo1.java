@@ -39,9 +39,11 @@ public class DataProviderDemo1 extends BaseClass1 {
 
     @DataProvider
        public Object[][] loginData(){
-    Object[][] credentials={
-                {"admin","MaharaDemo"},
-                {"student","MaharaDemo"}
+    Object[][] credentials= {
+            {"admin", "MaharaDemo"},
+            {"student", "MaharaDemo"},
+            {"Staff", "MaharaDemo"},
+            //{"Learner", "MaharaDemo"},
 
         };
         return credentials;

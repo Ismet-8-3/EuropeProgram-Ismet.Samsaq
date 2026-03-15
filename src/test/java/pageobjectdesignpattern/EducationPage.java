@@ -32,6 +32,8 @@ WebElement addedSuccessMessage;
 WebElement deleteIcon;
 @FindBy(xpath = "//div[@class=\"alert alert-success\"]")
 WebElement deletedSuccessMessage;
+@FindBy(xpath = "//span[@id=\"progress_item_academicgoal\"]")
+WebElement addAcademicGoal;
     public EducationPage(ChromeDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver,this);
@@ -39,6 +41,8 @@ WebElement deletedSuccessMessage;
 
     }
     public void addEducationHistory(){
+        functionsLibrary.waitForElementPresent(addAcademicGoal);
+        addAcademicGoal.click();
         functionsLibrary.waitForElementPresent(educationHistory);
         educationHistory.click();
         functionsLibrary.waitForElementPresent(addEducationHistory);

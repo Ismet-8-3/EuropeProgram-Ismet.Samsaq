@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
  * @created : 25/02/2026,20:18
  * @Email : noah.yisimaiti@Gmail.com
  **/
-public class nopCTestJunit extends BaseClass {
+public class NopCTestJUnit extends BaseClass {
     LogInPage logInPage;
     DashBoard dashBoard;
     Customers customers;

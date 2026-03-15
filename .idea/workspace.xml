@@ -5,9 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment=" NopCommerce Add customer Test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/automation/mahara.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/CustomerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/DashBoardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/FunctionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/LogInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/TestPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nopc/TestNGNopC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nopc/nopC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopc/nopCTestJunit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/TestNGDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regresisontest-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/regresisontest-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/unitedcoder/automation/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/automation/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nopc/nopCTestJunit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nopc/NopCTestJUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/CustomerListPage1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/EducationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/EducationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/FunctionsLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/FunctionsLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/mahara1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjectdesignpattern/mahara1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testngframework/mahara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testngframework/mahara.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +63,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -72,17 +90,17 @@
       <recent name="com.unitedcoder.excel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNGDemo3">
-    <configuration name="TestNGDemo1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestPage.addCustomerTest">
+    <configuration name="TestPage (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testngframework.*" />
+          <option name="PATTERN" value="cubecarttestng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testngframework" />
-      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo1" />
+      <option name="PACKAGE_NAME" value="cubecarttestng" />
+      <option name="MAIN_CLASS_NAME" value="cubecarttestng.TestPage" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -90,16 +108,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGDemo2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testngframework.*" />
+          <option name="PATTERN" value="cubecarttestng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testngframework" />
-      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo2" />
+      <option name="PACKAGE_NAME" value="cubecarttestng" />
+      <option name="MAIN_CLASS_NAME" value="cubecarttestng.TestPage" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -107,16 +125,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGDemo2.deleteCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPage.addCustomerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testngframework.*" />
+          <option name="PATTERN" value="cubecarttestng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testngframework" />
-      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo2" />
+      <option name="PACKAGE_NAME" value="cubecarttestng" />
+      <option name="MAIN_CLASS_NAME" value="cubecarttestng.TestPage" />
+      <option name="METHOD_NAME" value="addCustomerTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPage.deleteCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cubecarttestng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cubecarttestng" />
+      <option name="MAIN_CLASS_NAME" value="cubecarttestng.TestPage" />
       <option name="METHOD_NAME" value="deleteCustomer" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -125,34 +161,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGDemo3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPage.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testngframework.*" />
+          <option name="PATTERN" value="cubecarttestng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testngframework" />
-      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo3" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestNGDemo3.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testngframework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testngframework" />
-      <option name="MAIN_CLASS_NAME" value="testngframework.TestNGDemo3" />
-      <option name="METHOD_NAME" value="myTest" />
+      <option name="PACKAGE_NAME" value="cubecarttestng" />
+      <option name="MAIN_CLASS_NAME" value="cubecarttestng.TestPage" />
+      <option name="METHOD_NAME" value="loginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -161,19 +180,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestNGDemo1" />
-      <item itemvalue="TestNG.TestNGDemo2" />
-      <item itemvalue="TestNG.TestNGDemo2.deleteCustomer" />
-      <item itemvalue="TestNG.TestNGDemo3" />
-      <item itemvalue="TestNG.TestNGDemo3.myTest" />
+      <item itemvalue="TestNG.TestPage.deleteCustomer" />
+      <item itemvalue="TestNG.TestPage" />
+      <item itemvalue="TestNG.TestPage (1)" />
+      <item itemvalue="TestNG.TestPage.addCustomerTest" />
+      <item itemvalue="TestNG.TestPage.loginTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestNGDemo3" />
-        <item itemvalue="TestNG.TestNGDemo3.myTest" />
-        <item itemvalue="TestNG.TestNGDemo2.deleteCustomer" />
-        <item itemvalue="TestNG.TestNGDemo2" />
-        <item itemvalue="TestNG.TestNGDemo1" />
+        <item itemvalue="TestNG.TestPage.addCustomerTest" />
+        <item itemvalue="TestNG.TestPage" />
+        <item itemvalue="TestNG.TestPage.deleteCustomer" />
+        <item itemvalue="TestNG.TestPage.loginTest" />
+        <item itemvalue="TestNG.TestPage (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +207,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601131181857</updated>
+    </task>
+    <task id="LOCAL-00018" summary="collections">
+      <created>1604169164662</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604169164662</updated>
+    </task>
+    <task id="LOCAL-00019" summary="collections">
+      <created>1604169745043</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604169745043</updated>
     </task>
     <task id="LOCAL-00020" summary="collections">
       <created>1604431503813</created>
@@ -518,21 +551,7 @@
       <option name="project" value="LOCAL" />
       <updated>1736312897104</updated>
     </task>
-    <task id="LOCAL-00067" summary=" maharaTest">
-      <created>1772043684572</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1772043684573</updated>
-    </task>
-    <task id="LOCAL-00068" summary=" NopCommerce Add customer Test">
-      <created>1772218141965</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1772218141965</updated>
-    </task>
-    <option name="localTasksCounter" value="69" />
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -547,6 +566,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Updates" />
     <MESSAGE value="homework1" />
@@ -562,9 +582,7 @@
     <MESSAGE value="mahara login" />
     <MESSAGE value="TestNG Annotation and attributes." />
     <MESSAGE value="TestNG Annotation and attributes.Actions" />
-    <MESSAGE value=" maharaTest" />
-    <MESSAGE value=" NopCommerce Add customer Test" />
-    <option name="LAST_COMMIT_MESSAGE" value=" NopCommerce Add customer Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNG Annotation and attributes.Actions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -579,15 +597,28 @@
           <line>8</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/testngframework/DataProviderDemo2.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IllegalStateException" package="java.lang" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/unitedcoder/automation/mahara.java</url>
+          <line>12</line>
+          <properties class="com.unitedcoder.automation.mahara" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/testngframework/mahara.java</url>
+          <line>22</line>
+          <properties class="testngframework.mahara" method="setUp">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

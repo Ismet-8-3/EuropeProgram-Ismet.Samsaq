@@ -40,7 +40,10 @@ public class CustomerListPage1  {
     @FindBy(xpath = "//div[@class=\"alert alert-success\"]")
     WebElement Success;
 
-
+@FindBy(id = "profileform_social_container-tab")
+WebElement addMedia;
+@FindBy(id = "//div[@class=\"list-group-item-heading sidebar-item-heading\"]")
+WebElement group;
     public CustomerListPage1(ChromeDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver,this);
@@ -69,7 +72,10 @@ public class CustomerListPage1  {
         saveProfile.click();
         functionsLibrary.waitForElementPresent(dropLink);
         dropLink.click();
-
+        functionsLibrary.waitForElementPresent(addMedia);
+         addMedia.click();
+         functionsLibrary.waitForElementPresent(group);
+         group.click();
 
     }
     public boolean verifyCustomerAdded(){
