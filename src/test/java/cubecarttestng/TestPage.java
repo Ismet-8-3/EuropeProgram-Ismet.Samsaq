@@ -22,7 +22,7 @@ public class TestPage extends BaseClass{
     LogInPage logInPage;
     CustomerPage customerPage;
     DashBoardPage dashBoardPage;
-    @BeforeClass
+    @BeforeClass(groups = "regression test")
     public void setUp() {
         openBrowser();
         logInPage = new LogInPage(firefoxDriver);
@@ -30,19 +30,19 @@ public class TestPage extends BaseClass{
         functionsPage = new FunctionsPage(firefoxDriver);
         customerPage = new CustomerPage(firefoxDriver);
     }
-    @Test(priority = 1,dataProvider = "loginData",groups = "smock Test")
+    @Test(priority = 1,dataProvider = "loginData",groups = {"smock Test","regression test"})
         public void loginTest(String user, String pass)
     {
          logInPage.login(user, pass);
     }
-    @Test(priority = 2,dependsOnMethods = "loginTest")
+    @Test(priority = 2,dependsOnMethods = "loginTest",groups = "regression test")
             public void addCustomerTest(){
        dashBoardPage.clickCustomerList();
        customerPage.addCustomer();
        boolean isCustomerAdded=customerPage.verifyCustomerAdded();
        Assertions.assertTrue(isCustomerAdded);
     }
-    @Test(priority = 3,dependsOnMethods = "addCustomerTest")
+    @Test(priority = 3,dependsOnMethods = "addCustomerTest",groups = "smock test")
     public void deleteCustomer(){
        //customerPage.deleteCustomer();
         customerPage.deleteOwenCustomer();

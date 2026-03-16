@@ -2,7 +2,9 @@
 
 <suite name="CubeCart Application Test" parallel="tests" thread-count="2" verbose="3">
     <listeners>
-        <listener class-name="org.testng.reporters.EmailableReporter2"></listener>
+        <listener class-name="org.testng.reporters.EmailableReporter2">
+        </listener>
+        <listener class-name="org.testng.reporters.AbstractXmlReporter"></listener>
     </listeners>
     <test name="Customer Module Test">
         <classes>
@@ -10,6 +12,7 @@
 
         </classes>
     </test>
+
 
     <test name="Pruduct Test">
         <classes>

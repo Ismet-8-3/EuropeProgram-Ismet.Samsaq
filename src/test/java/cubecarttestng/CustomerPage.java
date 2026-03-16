@@ -5,6 +5,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
@@ -20,7 +21,7 @@ public class CustomerPage {
     String customerEmail=null;
     @FindBy(xpath = "//a[@href=\"https://demo.cubecart.com/cc6/admin_5xArPd.php?_g=customers&action=add\"]")
     WebElement addCustomer;
-    @FindBy(id = "customer_status")
+    @FindBy(xpath = "//img[@class=\"checkbox cbs\"]")
     WebElement status;
     @FindBy(id = "cust-title")
     WebElement title;
@@ -69,8 +70,8 @@ public class CustomerPage {
 
         functionsPage.waitForElementPresent(addCustomer);
         addCustomer.click();
-//        functionsPage.waitForElementPresent(status);
-//        status.click();
+       functionsPage.waitForElementPresent(status);
+        status.click();
         functionsPage.waitForElementPresent(title);
         title.sendKeys(functionsPage.generateFakeTitle());
         functionsPage.waitForElementPresent(firstN);
