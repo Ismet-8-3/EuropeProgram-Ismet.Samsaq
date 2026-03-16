@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -36,49 +37,29 @@ public class TestPage extends BaseClass{
     }
     @Test(priority = 2,dependsOnMethods = "loginTest")
             public void addCustomerTest(){
-        customerPage.customerList.click();
-        customerPage.addCustomer.click();
-        //customerPage.status.click();
-        customerPage.title.sendKeys(functionsPage.generateFakeTitle());
-        customerPage.firstN.sendKeys(functionsPage.generateFakeName());
-        customerPage.lastN.sendKeys(functionsPage.generateFakeName());
-        customerPage.type.click();
-        customerPage.USD.click();
-        customerPage.Notes.sendKeys(functionsPage.generateFakeNotes());
-        customerPage.amount.sendKeys(functionsPage.generateFakeAmount());
-        customerPage.Email.sendKeys(functionsPage.generateFakeEmail());
-        customerPage.Phone.sendKeys(functionsPage.generateFakePhone());
-        customerPage.Mobile.sendKeys(functionsPage.generateFakeMobile());
-        customerPage.subToNew.click();
-        customerPage.Save.submit();
-
-        Assertions.assertTrue(customerPage.verifyCustomerAdded());
+       dashBoardPage.clickCustomerList();
+       customerPage.addCustomer();
+       boolean isCustomerAdded=customerPage.verifyCustomerAdded();
+       Assertions.assertTrue(isCustomerAdded);
     }
-    @Test(dependsOnMethods = "addCustomerTest")
+    @Test(priority = 3,dependsOnMethods = "addCustomerTest")
     public void deleteCustomer(){
+       //customerPage.deleteCustomer();
+        customerPage.deleteOwenCustomer();
+    boolean isCustomerDeleted=customerPage.verifyCustomerdeleted();
+    Assert.assertTrue(isCustomerDeleted);
 
 
 
     }
 
     @AfterClass
-            public void logOut(){
+            public void tearDown(){
 
 
         dashBoardPage.logout();
         firefoxDriver.quit();
-
-
-
-
-
-
     }
-   // @Test(priority = 2,dependsOnMethods = "loginTest")
-   // public void logOut(){
-
-   // }
-
     @DataProvider
     public Object[][] loginData() {
         Object[][] credentials = {{"cubecart", "cubecart"}

@@ -17,13 +17,18 @@ public class DashBoardPage {
 
     @FindBy(xpath = "//*[contains(text(),\"Log Out \")]")
     WebElement logOutLink;
+    @FindBy(xpath = "//a[@href=\"?_g=customers\"]")
+    WebElement customerList;
     public DashBoardPage(FirefoxDriver firefoxDriver) {
         this.firefoxDriver =firefoxDriver ;
         PageFactory.initElements(firefoxDriver,this);
         functionsPage=new FunctionsPage(firefoxDriver);
 
     }
-
+public void clickCustomerList(){
+    functionsPage.waitForElementPresent(customerList);
+    customerList.click();
+}
 
 
     public void logout(){

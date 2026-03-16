@@ -1,6 +1,8 @@
 package cubecarttestng;
 
 import net.datafaker.Faker;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.FindBy;
@@ -15,12 +17,9 @@ import org.openqa.selenium.support.PageFactory;
 public class CustomerPage {
     FirefoxDriver firefoxDriver;
     FunctionsPage functionsPage;
-    DashBoardPage dashBoardPage;
-
-    @FindBy(xpath = "//a[@href=\"?_g=customers\"]")
-    WebElement customerList;
+    String customerEmail=null;
     @FindBy(xpath = "//a[@href=\"https://demo.cubecart.com/cc6/admin_5xArPd.php?_g=customers&action=add\"]")
-     WebElement addCustomer;
+    WebElement addCustomer;
     @FindBy(id = "customer_status")
     WebElement status;
     @FindBy(id = "cust-title")
@@ -47,8 +46,14 @@ public class CustomerPage {
     WebElement subToNew;
     @FindBy(name = "save")
     WebElement Save;
-    @FindBy(className = "success")
+    @FindBy(xpath = "//*[contains(text(),\"Customer successfully added.\")]")
     WebElement customerAddedSuccessMessage;
+    @FindBy(css = "i.fa.fa-trash")
+    WebElement deleteIcon;
+    @FindBy(xpath = "//*[contains(text(),\"Some or all selected Customer successfully deleted.\")]")
+    WebElement customerDeletedSuccessMessage;
+
+
 
 
 
@@ -60,34 +65,33 @@ public class CustomerPage {
     }
 
 
-    public void addCustomer(String Title,String firstName,String lastName,String notes,String email,String phone
-    ,String mobile){
-        functionsPage.waitForElementPresent(customerList);
-        customerList.click();
+    public void addCustomer() {
+
         functionsPage.waitForElementPresent(addCustomer);
         addCustomer.click();
-        functionsPage.waitForElementPresent(status);
-        status.click();
+//        functionsPage.waitForElementPresent(status);
+//        status.click();
         functionsPage.waitForElementPresent(title);
-        title.sendKeys();
+        title.sendKeys(functionsPage.generateFakeTitle());
         functionsPage.waitForElementPresent(firstN);
-        firstN.sendKeys();
+        firstN.sendKeys(functionsPage.generateFakeFirstName());
         functionsPage.waitForElementPresent(lastN);
-        lastN.sendKeys();
+        lastN.sendKeys(functionsPage.generateFakeLastName());
         functionsPage.waitForElementPresent(type);
         type.click();
         functionsPage.waitForElementPresent(USD);
         USD.click();
         functionsPage.waitForElementPresent(Notes);
-        Notes.sendKeys();
+        Notes.sendKeys(functionsPage.generateFakeNotes());
         functionsPage.waitForElementPresent(amount);
-        amount.sendKeys();
+        amount.sendKeys(functionsPage.generateFakeAmount());
         functionsPage.waitForElementPresent(Email);
-        Email.sendKeys();
+        customerEmail=functionsPage.generateFakeEmail();
+        Email.sendKeys(customerEmail);
         functionsPage.waitForElementPresent(Phone);
-        Phone.sendKeys();
+        Phone.sendKeys(functionsPage.generateFakePhone());
         functionsPage.waitForElementPresent(Mobile);
-        Mobile.sendKeys();
+        Mobile.sendKeys(functionsPage.generateFakeMobile());
         functionsPage.waitForElementPresent(subToNew);
         subToNew.click();
         functionsPage.waitForElementPresent(Save);
@@ -96,21 +100,49 @@ public class CustomerPage {
 
 
 
-
-
-
     }
-    public boolean verifyCustomerAdded(){
-        functionsPage.waitForElementPresent(customerAddedSuccessMessage);
-        if (customerAddedSuccessMessage.isDisplayed())
-            return true;
-        else
-            return false;
-    }
-    public void deleteCustomer(){
-        functionsPage.deletCustomer();
 
+  public boolean verifyCustomerAdded() {
+      functionsPage.waitForElementPresent(customerAddedSuccessMessage);
+      if (customerAddedSuccessMessage.isDisplayed()) {
+          System.out.println("Customer Added Successfully!!");
+
+          return true;
+      } else{
+          System.out.println("Failed to Add Customer");
+      }
+          return false;
     }
+
+public void deleteCustomer(){
+        functionsPage.waitForElementPresent(deleteIcon);
+        deleteIcon.click();
+        functionsPage.waitForAlertPresent();
+        Alert alert=firefoxDriver.switchTo().alert();
+        alert.accept();
+}
+public void deleteOwenCustomer() {
+    WebElement deletIcon = firefoxDriver.findElement(By.xpath(String.format
+            ("//td[text()='%s']/following-sibling::td/\n" +
+                    "descendant::i[@title='Delete']", customerEmail)));
+    deletIcon.click();
+    functionsPage.waitForAlertPresent();
+    Alert alert = firefoxDriver.switchTo().alert();
+    alert.accept();
+
 
 }
+      public boolean verifyCustomerdeleted() {
+          functionsPage.waitForElementPresent(customerDeletedSuccessMessage);
+          if (customerDeletedSuccessMessage.isDisplayed()) {
+              System.out.println("Customer Deleted Successfully!!");
+              return true;
+          } else {
+              System.out.println("Failed to Delete Customer");
+              return false;
+
+
+          }
+      }
+  }
 

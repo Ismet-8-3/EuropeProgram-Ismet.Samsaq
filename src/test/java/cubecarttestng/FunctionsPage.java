@@ -33,10 +33,14 @@ public class FunctionsPage {
         WebDriverWait wait=new WebDriverWait(firefoxDriver, Duration.ofSeconds(7));
         wait.until(ExpectedConditions.alertIsPresent());
     }
-    public String generateFakeName(){
+    public String generateFakeFirstName(){
         String firstName=faker.name().firstName();
         return  firstName;
 
+    }
+    public String generateFakeLastName(){
+        String lastName=faker.name().lastName();
+        return lastName;
     }
 
 
@@ -70,9 +74,7 @@ public class FunctionsPage {
 
 
     }
-    public void deletCustomer(){
-       WebElement delet=firefoxDriver.findElement(By.xpath(
-                ("//*[text()="+generateFakeEmail()+"]/following-sibling::td //i[@title='Delete']")));
 
-    }
+
+
 }
