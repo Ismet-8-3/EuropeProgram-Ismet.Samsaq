@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="cubecart  Add and Delete customer Test">
-      <change afterPath="$PROJECT_DIR$/parallelTest-cubecart-login-addCustomer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/cubecartTestNG.xml" afterDir="false" />
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="cubecart  Add and Delete customer Test parallel">
+      <change afterPath="$PROJECT_DIR$/cubecart-regression-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parallel-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parallel-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parallelTest-cubecart-login-addCustomer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parallelTest-cubecart-login-addCustomer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/advanceactionsdemo/AdvanceActionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/advanceactionsdemo/AdvanceActionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/CustomerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/CustomerPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/TestPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
     </list>
@@ -77,6 +79,59 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/parallel-test.xml">
+    <configuration name="AdvanceActionsDemo (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="advanceactionsdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="advanceactionsdemo" />
+      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.AdvanceActionsDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdvanceActionsDemo.multipleWindowTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="advanceactionsdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="advanceactionsdemo" />
+      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.AdvanceActionsDemo" />
+      <option name="METHOD_NAME" value="multipleWindowTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdvanceActionsDemo.testHyperLinks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="advanceactionsdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="advanceactionsdemo" />
+      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.AdvanceActionsDemo" />
+      <option name="METHOD_NAME" value="testHyperLinks" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
@@ -94,24 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPage.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cubecarttestng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cubecarttestng" />
-      <option name="MAIN_CLASS_NAME" value="cubecarttestng.TestPage" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/parallel-test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel-test.xml" />
@@ -122,48 +159,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/testdata/cubecartTestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testdata/cubecartTestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="loginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cubecarttestng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cubecarttestng" />
-      <option name="MAIN_CLASS_NAME" value="cubecarttestng.loginTest" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="TestNG.AdvanceActionsDemo (2)" />
+      <item itemvalue="TestNG.AdvanceActionsDemo.multipleWindowTest" />
+      <item itemvalue="TestNG.AdvanceActionsDemo.testHyperLinks" />
       <item itemvalue="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/parallel-test.xml" />
-      <item itemvalue="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/testdata/cubecartTestNG.xml" />
-      <item itemvalue="TestNG.loginTest.loginTest" />
-      <item itemvalue="TestNG.TestPage.loginTest" />
       <item itemvalue="TestNG.TestPage" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/parallel-test.xml" />
-        <item itemvalue="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/testdata/cubecartTestNG.xml" />
+        <item itemvalue="TestNG.AdvanceActionsDemo (2)" />
+        <item itemvalue="TestNG.AdvanceActionsDemo.multipleWindowTest" />
         <item itemvalue="TestNG.TestPage" />
-        <item itemvalue="TestNG.TestPage.loginTest" />
-        <item itemvalue="TestNG.loginTest.loginTest" />
+        <item itemvalue="TestNG.AdvanceActionsDemo.testHyperLinks" />
       </list>
     </recent_temporary>
   </component>
