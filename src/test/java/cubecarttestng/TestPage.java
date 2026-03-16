@@ -30,7 +30,7 @@ public class TestPage extends BaseClass{
         functionsPage = new FunctionsPage(firefoxDriver);
         customerPage = new CustomerPage(firefoxDriver);
     }
-    @Test(priority = 1,dataProvider = "loginData")
+    @Test(priority = 1,dataProvider = "loginData",groups = "smock Test")
         public void loginTest(String user, String pass)
     {
          logInPage.login(user, pass);

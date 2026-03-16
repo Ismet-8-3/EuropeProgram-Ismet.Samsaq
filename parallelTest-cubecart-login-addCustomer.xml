@@ -4,16 +4,16 @@
     <listeners>
         <listener class-name="org.testng.reporters.EmailableReporter2"></listener>
     </listeners>
-    <test name="Aad Customer Module Test">
+    <test name="Customer Module Test">
         <classes>
-            <class name="cubecarttestng.TestPage"></class>
+            <class name="testngframework.DataProviderDemo2"></class>
 
         </classes>
     </test>
 
-    <test name="Login Test">
+    <test name="Pruduct Test">
         <classes>
-            <class name="cubecarttestng.loginTest"></class>
+            <class name="testngframework.DataProviderDemo1"></class>
         </classes>
     </test>
 
