@@ -29,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="New_Test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -188,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601131181857</updated>
-    </task>
-    <task id="LOCAL-00018" summary="collections">
-      <created>1604169164662</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1604169164662</updated>
     </task>
     <task id="LOCAL-00019" summary="collections">
       <created>1604169745043</created>
@@ -532,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1736312897104</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="cubecart  Add and Delete customer Test">
+      <created>1773669437941</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1773669437942</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -563,7 +563,8 @@
     <MESSAGE value="mahara login" />
     <MESSAGE value="TestNG Annotation and attributes." />
     <MESSAGE value="TestNG Annotation and attributes.Actions" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG Annotation and attributes.Actions" />
+    <MESSAGE value="cubecart  Add and Delete customer Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="cubecart  Add and Delete customer Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
