@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="cubecart  Add and Delete customer Test parallel">
-      <change afterPath="$PROJECT_DIR$/cubecart-regression-test.xml" afterDir="false" />
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="cubecart  Add and Delete customer Test and AdvanceActionsDemo parallel Test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/advanceactionsdemo/JavaScriptExecutorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parallel-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parallel-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parallelTest-cubecart-login-addCustomer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parallelTest-cubecart-login-addCustomer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/advanceactionsdemo/AdvanceActionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/advanceactionsdemo/AdvanceActionsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/CustomerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/CustomerPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/TestPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +72,8 @@
       <recent name="com.unitedcoder.excel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/parallel-test.xml">
-    <configuration name="AdvanceActionsDemo (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JavaScriptExecutorDemo">
+    <configuration name="JavaScriptExecutorDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
@@ -88,7 +82,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="advanceactionsdemo" />
-      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.AdvanceActionsDemo" />
+      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.JavaScriptExecutorDemo" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -96,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvanceActionsDemo.multipleWindowTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaScriptExecutorDemo.jsClickTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +99,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="advanceactionsdemo" />
-      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.AdvanceActionsDemo" />
-      <option name="METHOD_NAME" value="multipleWindowTest" />
+      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.JavaScriptExecutorDemo" />
+      <option name="METHOD_NAME" value="jsClickTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvanceActionsDemo.testHyperLinks" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaScriptExecutorDemo.jsClickTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +117,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="advanceactionsdemo" />
-      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.AdvanceActionsDemo" />
-      <option name="METHOD_NAME" value="testHyperLinks" />
+      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.JavaScriptExecutorDemo" />
+      <option name="METHOD_NAME" value="jsClickTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,27 +126,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaScriptExecutorDemo.jsClickTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cubecarttestng.*" />
+          <option name="PATTERN" value="advanceactionsdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cubecarttestng" />
-      <option name="MAIN_CLASS_NAME" value="cubecarttestng.TestPage" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="advanceactionsdemo" />
+      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.JavaScriptExecutorDemo" />
+      <option name="METHOD_NAME" value="jsClickTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/parallel-test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaScriptExecutorDemo.sendKeysWithJS" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel-test.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="advanceactionsdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="advanceactionsdemo" />
+      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.JavaScriptExecutorDemo" />
+      <option name="METHOD_NAME" value="sendKeysWithJS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -160,19 +163,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.AdvanceActionsDemo (2)" />
-      <item itemvalue="TestNG.AdvanceActionsDemo.multipleWindowTest" />
-      <item itemvalue="TestNG.AdvanceActionsDemo.testHyperLinks" />
-      <item itemvalue="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/parallel-test.xml" />
-      <item itemvalue="TestNG.TestPage" />
+      <item itemvalue="TestNG.JavaScriptExecutorDemo" />
+      <item itemvalue="TestNG.JavaScriptExecutorDemo.jsClickTest" />
+      <item itemvalue="TestNG.JavaScriptExecutorDemo.jsClickTest (1)" />
+      <item itemvalue="TestNG.JavaScriptExecutorDemo.jsClickTest (2)" />
+      <item itemvalue="TestNG.JavaScriptExecutorDemo.sendKeysWithJS" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/parallel-test.xml" />
-        <item itemvalue="TestNG.AdvanceActionsDemo (2)" />
-        <item itemvalue="TestNG.AdvanceActionsDemo.multipleWindowTest" />
-        <item itemvalue="TestNG.TestPage" />
-        <item itemvalue="TestNG.AdvanceActionsDemo.testHyperLinks" />
+        <item itemvalue="TestNG.JavaScriptExecutorDemo" />
+        <item itemvalue="TestNG.JavaScriptExecutorDemo.sendKeysWithJS" />
+        <item itemvalue="TestNG.JavaScriptExecutorDemo.jsClickTest" />
+        <item itemvalue="TestNG.JavaScriptExecutorDemo.jsClickTest (2)" />
+        <item itemvalue="TestNG.JavaScriptExecutorDemo.jsClickTest (1)" />
       </list>
     </recent_temporary>
   </component>
