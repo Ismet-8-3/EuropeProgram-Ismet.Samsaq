@@ -1,4 +1,4 @@
-package databasetestoutomation;
+package databasetestautomation;
 
 /**
  * @author : ismetsasaq

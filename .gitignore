@@ -1,3 +1,6 @@
 target/
 .idea/
 SeleniumJavaTests.iml/
+/test-output
+/test-Result
+
