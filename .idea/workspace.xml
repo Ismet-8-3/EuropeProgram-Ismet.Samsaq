@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="cubecart  Add and Delete customer Test and AdvanceActionsDemo parallel Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/advanceactionsdemo/JavaScriptExecutorDemo.java" afterDir="false" />
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="cubecart  Add and Delete customer Test and AdvanceActionsDemo parallel Test And Js Test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/propertiesfiles/ReadFromConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/propertiesfiles/ReadFromConfigFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/DBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/SQLQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/databasetestoutomation/ConnectionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/ConnectionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/databasetestoutomation/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/DBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/databasetestoutomation/TestDBConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="New_Test" />
+        <entry key="$PROJECT_DIR$" value="projectTest" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,17 +81,66 @@
       <recent name="com.unitedcoder.excel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.JavaScriptExecutorDemo">
-    <configuration name="JavaScriptExecutorDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DBTest.getProductInfoTest">
+    <configuration name="ReadFromConfigFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.propertiesfiles.ReadFromConfigFile" />
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="advanceactionsdemo.*" />
+          <option name="PATTERN" value="com.unitedcoder.propertiesfiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="advanceactionsdemo" />
-      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.JavaScriptExecutorDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBTest.connectToDataBaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="databasetestautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="databasetestautomation" />
+      <option name="MAIN_CLASS_NAME" value="databasetestautomation.DBTest" />
+      <option name="METHOD_NAME" value="connectToDataBaseTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBTest.getProductInfoTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="databasetestautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="databasetestautomation" />
+      <option name="MAIN_CLASS_NAME" value="databasetestautomation.DBTest" />
+      <option name="METHOD_NAME" value="getProductInfoTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cubecarttestng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cubecarttestng" />
+      <option name="MAIN_CLASS_NAME" value="cubecarttestng.TestPage" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -90,72 +148,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptExecutorDemo.jsClickTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/cubecart-regression-test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="advanceactionsdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="advanceactionsdemo" />
-      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.JavaScriptExecutorDemo" />
-      <option name="METHOD_NAME" value="jsClickTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaScriptExecutorDemo.jsClickTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="advanceactionsdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="advanceactionsdemo" />
-      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.JavaScriptExecutorDemo" />
-      <option name="METHOD_NAME" value="jsClickTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaScriptExecutorDemo.jsClickTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="advanceactionsdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="advanceactionsdemo" />
-      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.JavaScriptExecutorDemo" />
-      <option name="METHOD_NAME" value="jsClickTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaScriptExecutorDemo.sendKeysWithJS" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="advanceactionsdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="advanceactionsdemo" />
-      <option name="MAIN_CLASS_NAME" value="advanceactionsdemo.JavaScriptExecutorDemo" />
-      <option name="METHOD_NAME" value="sendKeysWithJS" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/cubecart-regression-test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -163,19 +159,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.JavaScriptExecutorDemo" />
-      <item itemvalue="TestNG.JavaScriptExecutorDemo.jsClickTest" />
-      <item itemvalue="TestNG.JavaScriptExecutorDemo.jsClickTest (1)" />
-      <item itemvalue="TestNG.JavaScriptExecutorDemo.jsClickTest (2)" />
-      <item itemvalue="TestNG.JavaScriptExecutorDemo.sendKeysWithJS" />
+      <item itemvalue="Application.ReadFromConfigFile" />
+      <item itemvalue="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/cubecart-regression-test.xml" />
+      <item itemvalue="TestNG.DBTest.connectToDataBaseTest" />
+      <item itemvalue="TestNG.DBTest.getProductInfoTest" />
+      <item itemvalue="TestNG.TestPage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JavaScriptExecutorDemo" />
-        <item itemvalue="TestNG.JavaScriptExecutorDemo.sendKeysWithJS" />
-        <item itemvalue="TestNG.JavaScriptExecutorDemo.jsClickTest" />
-        <item itemvalue="TestNG.JavaScriptExecutorDemo.jsClickTest (2)" />
-        <item itemvalue="TestNG.JavaScriptExecutorDemo.jsClickTest (1)" />
+        <item itemvalue="TestNG.DBTest.getProductInfoTest" />
+        <item itemvalue="TestNG.DBTest.connectToDataBaseTest" />
+        <item itemvalue="Application.ReadFromConfigFile" />
+        <item itemvalue="TestNG.TestPage" />
+        <item itemvalue="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/cubecart-regression-test.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -190,13 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601131181857</updated>
-    </task>
-    <task id="LOCAL-00019" summary="collections">
-      <created>1604169745043</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1604169745043</updated>
     </task>
     <task id="LOCAL-00020" summary="collections">
       <created>1604431503813</created>
@@ -534,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1773669437942</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="cubecart  Add and Delete customer Test and AdvanceActionsDemo parallel Test And Js Test">
+      <created>1773743250044</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1773743250044</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -566,7 +562,8 @@
     <MESSAGE value="TestNG Annotation and attributes." />
     <MESSAGE value="TestNG Annotation and attributes.Actions" />
     <MESSAGE value="cubecart  Add and Delete customer Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="cubecart  Add and Delete customer Test" />
+    <MESSAGE value="cubecart  Add and Delete customer Test and AdvanceActionsDemo parallel Test And Js Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="cubecart  Add and Delete customer Test and AdvanceActionsDemo parallel Test And Js Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

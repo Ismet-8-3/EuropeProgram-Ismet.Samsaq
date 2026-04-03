@@ -1,4 +1,4 @@
-package databasetestoutomation;
+package databasetestautomation;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
