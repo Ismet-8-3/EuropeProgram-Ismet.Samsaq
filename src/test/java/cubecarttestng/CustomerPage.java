@@ -19,7 +19,8 @@ public class CustomerPage {
     FirefoxDriver firefoxDriver;
     FunctionsPage functionsPage;
     String customerEmail=null;
-    @FindBy(xpath = "//a[@href=\"https://demo.cubecart.com/cc6/admin_5xArPd.php?_g=customers&action=add\"]")
+
+    @FindBy(xpath = "//*[contains(text(),\"Add Customer\")]")
     WebElement addCustomer;
     @FindBy(xpath = "//img[@class=\"checkbox cbs\"]")
     WebElement status;
@@ -98,9 +99,20 @@ public class CustomerPage {
         functionsPage.waitForElementPresent(Save);
         Save.submit();
 
-
-
-
+    }
+    public void AddCustomer1(String title1,String firstName,String lastName,String email){
+        functionsPage.waitForElementPresent(addCustomer);
+        addCustomer.click();
+        functionsPage.waitForElementPresent(title);
+        title.sendKeys(title1);
+        functionsPage.waitForElementPresent(firstN);
+        firstN.sendKeys(firstName);
+        functionsPage.waitForElementPresent(lastN);
+        lastN.sendKeys(lastName);
+        functionsPage.waitForElementPresent(Email);
+        Email.sendKeys(email);
+        functionsPage.waitForElementPresent(Save);
+        Save.click();
     }
 
   public boolean verifyCustomerAdded() {

@@ -17,8 +17,8 @@ import java.time.Duration;
  **/
 public class FunctionsPage {
     FirefoxDriver firefoxDriver;
-    Faker faker=null;
-    String customerEmail=null;
+    Faker faker;
+
 
     public FunctionsPage( FirefoxDriver firefoxDriver) {
         this.firefoxDriver = firefoxDriver;
@@ -58,6 +58,10 @@ public class FunctionsPage {
         String mobile=faker.phoneNumber().cellPhone();
         return  mobile;
 
+    }
+    public String generateFakeProductName(){
+        String Product=faker.commerce().productName();
+        return Product;
     }
     public String generateFakeNotes(){
         String notis=faker.azure().appServicePlan();

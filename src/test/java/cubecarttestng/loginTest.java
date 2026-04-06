@@ -23,13 +23,16 @@ public class loginTest extends BaseClass {
     public void setUp() {
         openBrowser();
         logInPage = new LogInPage(firefoxDriver);
+
     }
 
     @Test(priority = 1,dataProvider = "loginData")
     public void loginTest(String user, String pass)
     {
         logInPage.login(user, pass);
+
     }
+
 
 
 
