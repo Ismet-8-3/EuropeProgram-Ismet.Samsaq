@@ -42,6 +42,7 @@ public class TestPage extends BaseClass{
        boolean isCustomerAdded=customerPage.verifyCustomerAdded();
        Assertions.assertTrue(isCustomerAdded);
     }
+
     @Test(priority = 3,dependsOnMethods = "addCustomerTest",groups = "smock test")
     public void deleteCustomer(){
        //customerPage.deleteCustomer();

@@ -4,18 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="cubecart  Add and Delete customer Test and AdvanceActionsDemo parallel Test And Js Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/propertiesfiles/ReadFromConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/propertiesfiles/ReadFromConfigFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/DBTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/SQLQueries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="cubecart  Add and Delete customer Test and AdvanceActionsDemo parallel Test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/ProductsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/InsertStatementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/TestDataHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/UIDBVerification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/databasetestoutomation/ConnectionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/ConnectionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/databasetestoutomation/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/databasetestoutomation/TestDBConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/CustomerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/CustomerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/DashBoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/DashBoardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/FunctionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/FunctionsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/TestPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/loginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/databasetestautomation/DBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/DBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/databasetestautomation/SQLQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/SQLQueries.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,28 +78,15 @@
       <recent name="C:\Users\Aynigar\projects\SeleniumJavaTests\test-Result" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="databasetestautomation" />
       <recent name="pageobjectdesignpattern" />
       <recent name="testngframework" />
       <recent name="junittestingframework" />
       <recent name="com.unitedcoder.json" />
-      <recent name="com.unitedcoder.excel" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DBTest.getProductInfoTest">
-    <configuration name="ReadFromConfigFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.unitedcoder.propertiesfiles.ReadFromConfigFile" />
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.unitedcoder.propertiesfiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DBTest.connectToDataBaseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.UIDBVerification">
+    <configuration name="DBTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
       <extension name="coverage">
         <pattern>
@@ -105,42 +96,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="databasetestautomation" />
       <option name="MAIN_CLASS_NAME" value="databasetestautomation.DBTest" />
-      <option name="METHOD_NAME" value="connectToDataBaseTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DBTest.getProductInfoTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databasetestautomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="databasetestautomation" />
-      <option name="MAIN_CLASS_NAME" value="databasetestautomation.DBTest" />
-      <option name="METHOD_NAME" value="getProductInfoTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumJavaTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cubecarttestng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cubecarttestng" />
-      <option name="MAIN_CLASS_NAME" value="cubecarttestng.TestPage" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -148,10 +103,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/cubecart-regression-test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UIDBVerification (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaTests" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/cubecart-regression-test.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="databasetestautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="databasetestautomation" />
+      <option name="MAIN_CLASS_NAME" value="databasetestautomation.UIDBVerification" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UIDBVerification (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="databasetestautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="databasetestautomation" />
+      <option name="MAIN_CLASS_NAME" value="databasetestautomation.UIDBVerification" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UIDBVerification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="databasetestautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="databasetestautomation" />
+      <option name="MAIN_CLASS_NAME" value="databasetestautomation.UIDBVerification" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UIDBVerification.verifyCustomerInDataBase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="databasetestautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="databasetestautomation" />
+      <option name="MAIN_CLASS_NAME" value="databasetestautomation.UIDBVerification" />
+      <option name="METHOD_NAME" value="verifyCustomerInDataBase" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -159,19 +173,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReadFromConfigFile" />
-      <item itemvalue="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/cubecart-regression-test.xml" />
-      <item itemvalue="TestNG.DBTest.connectToDataBaseTest" />
-      <item itemvalue="TestNG.DBTest.getProductInfoTest" />
-      <item itemvalue="TestNG.TestPage" />
+      <item itemvalue="TestNG.DBTest" />
+      <item itemvalue="TestNG.UIDBVerification" />
+      <item itemvalue="TestNG.UIDBVerification (1)" />
+      <item itemvalue="TestNG.UIDBVerification (2)" />
+      <item itemvalue="TestNG.UIDBVerification.verifyCustomerInDataBase" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DBTest.getProductInfoTest" />
-        <item itemvalue="TestNG.DBTest.connectToDataBaseTest" />
-        <item itemvalue="Application.ReadFromConfigFile" />
-        <item itemvalue="TestNG.TestPage" />
-        <item itemvalue="TestNG./Users/ismetsasaq/IdeaProjects/EuropeProgram-Ismet.Samsaq/cubecart-regression-test.xml" />
+        <item itemvalue="TestNG.UIDBVerification" />
+        <item itemvalue="TestNG.UIDBVerification (2)" />
+        <item itemvalue="TestNG.UIDBVerification (1)" />
+        <item itemvalue="TestNG.DBTest" />
+        <item itemvalue="TestNG.UIDBVerification.verifyCustomerInDataBase" />
       </list>
     </recent_temporary>
   </component>

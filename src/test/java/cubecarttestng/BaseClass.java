@@ -16,7 +16,7 @@ public class BaseClass {
         firefoxDriver.get("https://demo.cubecart.com/cc6/admin_5xArPd.php");
     }
     public void closeBrowser(){
-        firefoxDriver.close();
         firefoxDriver.quit();
+
     }
 }

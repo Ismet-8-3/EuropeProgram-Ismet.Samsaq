@@ -19,6 +19,8 @@ public class DashBoardPage {
     WebElement logOutLink;
     @FindBy(xpath = "//a[@href=\"?_g=customers\"]")
     WebElement customerList;
+    @FindBy(id ="nav_products")
+    WebElement productList;
     public DashBoardPage(FirefoxDriver firefoxDriver) {
         this.firefoxDriver =firefoxDriver ;
         PageFactory.initElements(firefoxDriver,this);
@@ -28,6 +30,10 @@ public class DashBoardPage {
 public void clickCustomerList(){
     functionsPage.waitForElementPresent(customerList);
     customerList.click();
+}
+public void clickProductList(){
+        functionsPage.waitForElementPresent(productList);
+        productList.click();
 }
 
 
