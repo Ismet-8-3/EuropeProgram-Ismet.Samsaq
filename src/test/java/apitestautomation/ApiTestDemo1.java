@@ -34,4 +34,37 @@ Response response= RestAssured.given().auth().basic(userName,password).when().ge
         Assert.assertEquals(response.getStatusCode(),200);
 
     }
+    @Test
+    public void getAllCustomers(){
+        //send request--get response
+        Response response= RestAssured.given().auth().basic(userName,password).when().get(baseUrl+"/customers")
+                .then().extract().response();
+        System.out.println(response.getBody().prettyPrint());
+        Assert.assertEquals(response.getStatusCode(),200);
+
+    }
+    @Test
+    public void addCategoryTest(){
+        //send request--get response
+        Response response= RestAssured.given().header("Content-Type","application/json")//request header
+                .and().body(JsonPayload.addCategoryPayload()) .auth().basic(userName,password).when().post(baseUrl+"/category")
+                .then().extract().response();
+        System.out.println(response.getBody().prettyPrint());
+        Assert.assertEquals(response.getStatusCode(),200);
+        Assert.assertTrue(response.jsonPath().getString("catName").equals(JsonPayload.catName));
+
+    }
+    @Test
+    public void addCategoryTest1(){
+        //send request--get response
+        Response response= RestAssured.given().header("Content-Type","application/json")//request header
+                .and().body(JsonPayload.getAddCategoryPayload()) .auth().basic(userName,password).when().post(baseUrl+"/category")
+                .then().extract().response();
+        System.out.println(response.getBody().prettyPrint());
+        Assert.assertEquals(response.getStatusCode(),200);
+        Assert.assertTrue(response.jsonPath().getString("catName").contains("Apple product"));
+        int categoryId=response.jsonPath().getInt("id");
+        System.out.println("category id is "+categoryId);
+
+    }
 }
