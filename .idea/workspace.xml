@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de8872db-6b72-476b-8cc7-ba88fcf01fc2" name="Default Changelist" comment="cubecart  Add and Delete customer Test and AdvanceActionsDemo parallel Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/InsertStatementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/TestDataHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/UIDBVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/unitedcoder/automation/URLtest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/CustomerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/CustomerPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/DashBoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/DashBoardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/FunctionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/FunctionsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/TestPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cubecarttestng/loginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cubecarttestng/loginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/databasetestautomation/DBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/DBTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/databasetestautomation/SQLQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/databasetestautomation/SQLQueries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apitestautomation/ApiTestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apitestautomation/ApiTestDemo1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="projectTest" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -181,11 +170,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UIDBVerification" />
+        <item itemvalue="TestNG.UIDBVerification.verifyCustomerInDataBase" />
         <item itemvalue="TestNG.UIDBVerification (2)" />
         <item itemvalue="TestNG.UIDBVerification (1)" />
+        <item itemvalue="TestNG.UIDBVerification" />
         <item itemvalue="TestNG.DBTest" />
-        <item itemvalue="TestNG.UIDBVerification.verifyCustomerInDataBase" />
       </list>
     </recent_temporary>
   </component>
@@ -200,13 +189,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601131181857</updated>
-    </task>
-    <task id="LOCAL-00020" summary="collections">
-      <created>1604431503813</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1604431503813</updated>
     </task>
     <task id="LOCAL-00021" summary="Object">
       <created>1604605590478</created>
@@ -544,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1773743250044</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Date Base Test automation">
+      <created>1775494725150</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1775494725150</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -577,7 +566,8 @@
     <MESSAGE value="TestNG Annotation and attributes.Actions" />
     <MESSAGE value="cubecart  Add and Delete customer Test" />
     <MESSAGE value="cubecart  Add and Delete customer Test and AdvanceActionsDemo parallel Test And Js Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="cubecart  Add and Delete customer Test and AdvanceActionsDemo parallel Test And Js Test" />
+    <MESSAGE value="Date Base Test automation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date Base Test automation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
